@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Video test...</title>
+<link href="video-js/video-js.css" rel="stylesheet">
+<script src="video-js/video.dev.js"></script>
+<script>
+	videojs.options.flash.swf = "video-js/video-js.swf"
+</script>
+<style type="text/css">
+.vjs-default-skin .vjs-control-bar .vjs-big-play-button {
+	background: rgba(44, 16, 16, 0.7)
+}
+
+.vjs-slider {
+	background: rgba(44, 16, 16, 0.2333333333333333)
+}
+
+.my_vjs {
+	margin: 50px auto 0
+}
+</style>
+</head>
+<body>
+	<div>
+		<video id="myVideo1"
+			class="my_vjs video-js vjs-default-skin vjs-big-play-centered"
+			controls preload="auto" width="640" height="400" poster="img/img.jpg"
+			data-setup="{}">
+			<source src="video/video.flv" type='video/flv'>
+		</video>
+		<video id="myVideo2"
+			class="my_vjs video-js vjs-default-skin vjs-big-play-centered"
+			controls preload="auto" width="640" height="400" poster="img/img.jpg"
+			data-setup="{}">
+			<source src="video/video.mp4" type='video/mp4'>
+		</video>
+		<video id="myVideo3"
+			class="my_vjs video-js vjs-default-skin vjs-big-play-centered"
+			controls preload="auto" width="640" height="400" poster="img/img.jpg"
+			data-setup="{}">
+			<source src="video/video.webm" type='video/webm'>
+		</video>
+		<video id="myVideo4"
+			class="my_vjs video-js vjs-default-skin vjs-big-play-centered"
+			controls preload="auto" width="640" height="400" poster="img/img.jpg"
+			data-setup="{}">
+			<source src="video/video.ogg" type='video/ogg'>
+		</video>
+	</div>
+	<script type="text/javascript">
+		//videojs("myVideo", {}, function() {
+		//alert('videojs ok...');
+		//});
+	</script>
+</body>
+</html>

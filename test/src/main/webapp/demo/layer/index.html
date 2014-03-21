@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>layer</title>
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<link href="skin/layer.css" rel="stylesheet" type="text/css">
+<link href="skin/layer.ext.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="layer.min.js"></script>
+<script type="text/javascript" src="extend/layer.ext.js"></script>
+<script type="text/javascript" src="js/jquery.tmpl.min.js"></script>
+<script type="text/javascript" src="js/screenfull.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+<script id="panelTpl" type="text/x-jquery-tmpl">
+<div class="panel-container">
+	<div class="panel-title-container">
+		<div class="panel-title">${title}</div>
+	</div>
+	<div class="panel-content-container">
+		<div class="panel-content">
+			{{html content}}
+		</div>
+	</div>
+</div>
+</script>
+
+<script id="toolTpl" type="text/x-jquery-tmpl">
+<div class="tool-container">
+	<div class="tool-fullscreen"></div>
+	<div class="tool-up"></div>
+	<div class="clear"></div>
+</div>
+</script>
+
+</head>
+<body>
+	<div id="top">
+		<div class="content">xiweicheng's 个性主页</div>
+	</div>
+	<div class="spacer"></div>
+	<div id="center">
+		<div id="row01"></div>
+		<div class="line-hor"></div>
+		<div id="row02">
+		</div>
+		<div class="line-hor"></div>
+		<div id="row03">
+			<div id="content">
+				<div class="left">
+				</div>
+				<div class="line-ver"></div>
+				<div class="center">
+					<p>这些年我跟卓伟联系不多，但是他的每一次出手我都会欣赏到，因为这种劲爆消息躲都躲不过去。我个人对明星们的八卦甚至周围朋友的八卦都没啥兴趣，从我做记者那天起，我就开始接触明星，可能是接触的太多了，反而不觉得他们有什么不一样的了，明星与普通人之间的差异性在我看来几乎没有了，所以我对明星就没什么好奇心。做了将近20年的记者，我才发现，除了采访过歌手，我居然没有采访过一个演员。前段时间有家经纪公司找我，希望我采访海清。我只是听说过她，但我都不知道她演过什么戏，我猜采访的时候会没话说，那样会很局促尴尬，就婉言谢绝了。还有，我前段时间写小说，里面有个人物，起名字让我想了半天，最后起了一个名字叫“吴秀波”。就在我写这个人物的命运时，我接到一个电话，对方说是吴秀波的经纪人，当时吓我一跳，我还以为把人物给写活了呢，缓过神之后才明白，有个演员名字叫吴秀波。实在是孤陋寡闻。</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+	<div class="spacer"></div>
+	<div id="bottom">
+		<div class="content">
+			<a href="http://xiweicheng.blog.51cto.com">http://xiweicheng.blog.51cto.com</a>
+		</div>
+		<div class="content">Copyright @ 2013-2014 xiweicheng 版权所有 未经许可
+			请勿转载</div>
+	</div>
+</body>
+</html>

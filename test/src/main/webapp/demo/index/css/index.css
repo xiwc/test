@@ -1,0 +1,45 @@
+body {
+	/* background: url("../img/body.jpg") #1C0C0F center top fixed repeat;
+	background-size: cover; */
+	background-color: #162934;
+}
+
+.spacer {
+	height: 5px;
+}
+
+.main {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#top {
+	
+}
+
+#top>div {
+	text-align: center;
+	background-color: #393D49;
+	color: #FFFFFF;
+}
+
+#top>div>h1 {
+	font-weight: bold;
+	font-size: 250%;
+}
+
+#center {
+	height: 550px;
+}
+
+#indexListDiv {
+	height: 100%;
+	background-color: white;
+}
+
+#bottom>div {
+	text-align: center;
+	background-color: #393D49;
+	color: #FFFFFF;
+	font-size: 105%;
+}

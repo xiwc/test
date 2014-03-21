@@ -1,0 +1,169 @@
+body {
+	background-color: black;
+}
+
+#top {
+	margin: 0 auto;
+	background-color: white;
+	width: 820px;
+}
+
+#bottom {
+	margin: 0 auto;
+	background-color: white;
+	width: 820px;
+}
+
+#center {
+	width: 800px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: white;
+}
+
+div[class="spacer"] {
+	height: 10px;
+}
+
+div[class="line-hor"] {
+	border-top: solid 2px #AAAAAA;
+	margin: 10px 0;
+}
+
+div[class="clear"] {
+	clear: both;
+}
+
+div[class="line-ver"] {
+	border-left: solid 2px #AAAAAA;
+	height: 900px;
+	width: 0;
+	margin: 0 10px;
+	float: left;
+}
+
+#content>.left {
+	width: 200px;
+	float: left;
+}
+
+#content>.center {
+	width: 578px;
+	float: left;
+}
+
+/* 模块panel CSS start */
+.panel-container {
+	width: 100%;
+	background-color: #F0F0F0;
+	border: solid 1px #A9B6CA;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.panel-container-hover {
+	background-color: #F0F000;
+	border: solid 1px #F0F000;
+}
+
+.panel-title {
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+	padding: 0 5px;
+	color: #FFF;
+	background-color: #A9B6CA;
+	vertical-align: middle;
+}
+
+.panel-title-container {
+	background-color: #BEBEBE;
+}
+
+.panel-content-container {
+	margin: 5px;
+	padding-bottom: 5px;
+}
+
+/* 模块panel CSS end */
+/* 模块tool CSS start */
+.tool-container {
+	background-color: Silver;
+	width: 60px;
+	position: absolute;
+	right: 0;
+	top: 2px;
+}
+
+.tool-fullscreen {
+	background-repeat: no-repeat;
+	background-image: url("../img/fullscreen.png");
+	height: 16px;
+	width: 16px;
+	float: left;
+	margin: 5px;
+}
+
+.tool-up {
+	background-repeat: no-repeat;
+	background-image: url("../img/up.png");
+	height: 16px;
+	width: 16px;
+	float: left;
+	margin: 5px;
+}
+
+.tool-down {
+	background-repeat: no-repeat;
+	background-image: url("../img/down.png");
+	height: 16px;
+	width: 16px;
+	float: left;
+	margin: 5px;
+}
+
+.tool-btn-hover {
+	background-color: #F0F000;
+}
+/* 模块tool CSS end */
+p {
+	font-family: Verdana, Arial;
+	font-size: 14px;
+	line-height: 25.1875px;
+	text-align: left;
+	word-spacing: -1px;
+}
+
+a[class="button"] {
+	text-decoration: none;
+	padding: 0 20px;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 10px;
+	text-align: center;
+	border: 1px solid #aaa;
+	background: #F2F2F2;
+	cursor: pointer;
+	display: inline-block;
+}
+
+#bottom>.content {
+	text-align: center;
+	font-family: Verdana, Arial, 宋体;
+	font-size: 12px;
+	height: 14px;
+	padding: 5px 0;
+}
+
+#top {
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+#top>.content {
+	text-align: center;
+	font-family: '微软雅黑';
+	font-size: 24px;
+	height: 30px;
+	padding: 5px 0;
+}

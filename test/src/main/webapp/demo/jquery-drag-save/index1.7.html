@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>iSmartAbleWidget</title>    
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script src="jquery.json-2.2.js" type="text/javascript"></script>
+    <script src="jquery-ui-pack.min.js" type="text/javascript"></script>
+    <script src="jquery.cookie/jquery.cookies.2.2.0.min.js" type="text/javascript"></script>
+    <link href="iSmartAbleWidget.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div id="head" class="head">
+        <h1>
+            iSmartAbleWidget</h1>
+    </div>
+    <input type="button" value="保存布局" id="btnSave" />
+    <div id="columns">
+        <ul id="column1" class="column">
+            <li class="widget color-green" id="intro">
+                <div class="widget-head">
+                    <h3>
+                        部件介绍</h3>
+                </div>
+                <div class="widget-content">
+                    <p>
+                        欢迎到这里，这是一个可拖动的部件编辑页面，他可以通过您的个性化拖动后，实现保存到远程服务端，以便下次您进入本页时呈现为您上次保存后的界面，是不是很Cool。</p>
+                </div>
+            </li>
+            <li class="widget color-red" id="widget_0">
+                <div class="widget-head">
+                    <h3>
+                        部件标题</h3>
+                </div>
+                <div class="widget-content">
+                    <p>
+                        欢迎到这里，这是一个可拖动的部件编辑页面，他可以通过您的个性化拖动后，实现保存到远程服务端，以便下次您进入本页时呈现为您上次保存后的界面，是不是很Cool。</p>
+                </div>
+            </li>
+            <li class="widget color-white" id="widget_5">
+                <div class="widget-head">
+                    <h3>
+                        部件标题</h3>
+                </div>
+                <div class="widget-content">
+                    <p>
+                        欢迎到这里，这是一个可拖动的部件编辑页面，他可以通过您的个性化拖动后，实现保存到远程服务端，以便下次您进入本页时呈现为您上次保存后的界面，是不是很Cool。</p>
+                </div>
+            </li>
+        </ul>
+        <ul id="column2" class="column">
+            <li class="widget color-blue" id="widget_1">
+                <div class="widget-head">
+                    <h3>
+                        部件标题</h3>
+                </div>
+                <div class="widget-content">
+                    <p>
+                        欢迎到这里，这是一个可拖动的部件编辑页面，他可以通过您的个性化拖动后，实现保存到远程服务端，以便下次您进入本页时呈现为您上次保存后的界面，是不是很Cool。</p>
+                </div>
+            </li>
+            <li class="widget color-yellow" id="widget_2">
+                <div class="widget-head">
+                    <h3>
+                        部件标题</h3>
+                </div>
+                <div class="widget-content">
+                    <p>
+                        欢迎到这里，这是一个可拖动的部件编辑页面，他可以通过您的个性化拖动后，实现保存到远程服务端，以便下次您进入本页时呈现为您上次保存后的界面，是不是很Cool。</p>
+                </div>
+            </li>
+            <li class="widget color-burlywood" id="widget_6">
+                <div class="widget-head">
+                    <h3>
+                        部件标题</h3>
+                </div>
+                <div class="widget-content">
+                    <p>
+                        欢迎到这里，这是一个可拖动的部件编辑页面，他可以通过您的个性化拖动后，实现保存到远程服务端，以便下次您进入本页时呈现为您上次保存后的界面，是不是很Cool。</p>
+                </div>
+            </li>
+        </ul>
+        <ul id="column3" class="column">
+            <li class="widget color-orange" id="widget_3">
+                <div class="widget-head">
+                    <h3>
+                        部件标题</h3>
+                </div>
+                <div class="widget-content">
+                    <p>
+                        欢迎到这里，这是一个可拖动的部件编辑页面，他可以通过您的个性化拖动后，实现保存到远程服务端，以便下次您进入本页时呈现为您上次保存后的界面，是不是很Cool。</p>
+                </div>
+            </li>
+            <li class="widget color-green" id="widget_4">
+                <div class="widget-head">
+                    <h3>
+                        部件标题</h3>
+                </div>
+                <div class="widget-content">
+                    <p>
+                        欢迎到这里，这是一个可拖动的部件编辑页面，他可以通过您的个性化拖动后，实现保存到远程服务端，以便下次您进入本页时呈现为您上次保存后的界面，是不是很Cool。</p>
+                </div>
+            </li>
+            <li class="widget color-gray" id="widget_7">
+                <div class="widget-head">
+                    <h3>
+                        部件标题</h3>
+                </div>
+                <div class="widget-content">
+                    <p>
+                        欢迎到这里，这是一个可拖动的部件编辑页面，他可以通过您的个性化拖动后，实现保存到远程服务端，以便下次您进入本页时呈现为您上次保存后的界面，是不是很Cool。</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        var StrWidgetIndex = jQuery.cookies.get('WidgetIndex');
+
+        if (StrWidgetIndex) {
+            var WidgetIndexJSON = null;
+            if (typeof StrWidgetIndex == 'object') {
+                WidgetIndexJSON = StrWidgetIndex;
+            } else if (typeof StrWidgetIndex == 'string') {
+                WidgetIndexJSON = jQuery.parseJSON(StrWidgetIndex);
+            }
+            var html = '';
+            jQuery.each(WidgetIndexJSON, function(n, v) {
+                var arrIDs = v.substring(1).split(',');
+                html += '<ul id="' + n + '" class="column">';
+                for (var i in arrIDs) {
+                    html += jQuery('#' + arrIDs[i]).get(0).outerHTML;
+                }
+                html += '</ul>';
+            });
+            jQuery('#columns').html(html);
+        }
+
+        jQuery('#btnSave').click(function() {
+            var WidgetIndexJSON = {};
+            jQuery('.column li[id]').each(function(i) {
+                if (eval('WidgetIndexJSON.' + jQuery(this).parent('ul').get(0).id) == undefined) {
+                    eval('WidgetIndexJSON.' + jQuery(this).parent('ul').get(0).id + '="";');
+                }
+                eval('WidgetIndexJSON.' + jQuery(this).parent('ul').get(0).id + '+=",' + this.id + '";');
+            });
+            alert(jQuery.toJSON(WidgetIndexJSON));
+            jQuery.cookies.set('WidgetIndex', jQuery.toJSON(WidgetIndexJSON), { hoursToLive: 24 }); //默认为一天，以小时为单位
+        });
+    </script>
+    <script type="text/javascript" src="iSmartAbleWidget.js"></script>
+</body>
+</html>
