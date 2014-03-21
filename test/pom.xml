@@ -193,6 +193,6 @@
 		<finalName>test</finalName>
 	</build>
 	<properties>
-		<webapp.lib.path>D:/SourceCode/Java/workspace/test/src/main/webapp/WEB-INF/lib</webapp.lib.path>
+		<webapp.lib.path>C:\Users\thinkpad\git\test\test\src\main\webapp\WEB-INF\lib</webapp.lib.path>
 	</properties>
 </project>
