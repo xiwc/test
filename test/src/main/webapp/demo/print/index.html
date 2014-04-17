@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>报表七</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<LINK href="js/mystyle.css" type=text/css rel=stylesheet>
+<STYLE type=text/css>
+.style2 {
+	font-size: x-large
+}
+
+.style6 {
+	font-size: 18pt
+}
+
+.style9 {
+	font-size: 12px
+}
+</STYLE>
+
+<META content="MSHTML 6.00.2800.1400" name=GENERATOR>
+<SCRIPT language=javascript>
+	function printpr() //预览函数
+	{
+		document.all("qingkongyema").click();//打印之前去掉页眉，页脚
+		document.all("dayinDiv").style.display = "none"; //打印之前先隐藏不想打印输出的元素（此例中隐藏“打印”和“打印预览”两个按钮）
+		var OLECMDID = 7;
+		var PROMPT = 1;
+		var WebBrowser = '<OBJECT ID="WebBrowser1" WIDTH=0 HEIGHT=0 CLASSID="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></OBJECT>';
+		document.body.insertAdjacentHTML('beforeEnd', WebBrowser);
+		WebBrowser1.ExecWB(OLECMDID, PROMPT);
+		WebBrowser1.outerHTML = "";
+		document.all("dayinDiv").style.display = "";//打印之后将该元素显示出来（显示出“打印”和“打印预览”两个按钮，方便别人下次打印）
+	}
+	function printTure() //打印函数
+	{
+		document.all('qingkongyema').click();//同上
+		document.all("dayinDiv").style.display = "none";//同上
+		window.print();
+		document.all("dayinDiv").style.display = "";
+	}
+	function doPage() {
+		layLoading.style.display = "none";//同上
+	}
+</SCRIPT>
+
+<script language="VBScript">
+dim hkey_root,hkey_path,hkey_key
+hkey_root="HKEY_CURRENT_USER"
+hkey_path="\Software\Microsoft\Internet Explorer\PageSetup"
+'//设置网页打印的页眉页脚为空
+function pagesetup_null()
+on error resume next
+Set RegWsh = CreateObject("WScript.Shell")
+hkey_key="\header" 
+RegWsh.RegWrite hkey_root+hkey_path+hkey_key,""
+hkey_key="\footer"
+RegWsh.RegWrite hkey_root+hkey_path+hkey_key,""
+end function
+'//设置网页打印的页眉页脚为默认值
+function pagesetup_default()
+on error resume next
+Set RegWsh = CreateObject("WScript.Shell")
+hkey_key="\header" 
+RegWsh.RegWrite hkey_root+hkey_path+hkey_key,"&w&b页码，&p/&P"
+hkey_key="\footer"
+RegWsh.RegWrite hkey_root+hkey_path+hkey_key,"&u&b&d"
+end function
+</script>
+</HEAD>
+<BODY topMargin=20>
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td>
+				<div align="center">
+					<span class="style2">张&nbsp;家&nbsp;港&nbsp;越&nbsp;洋&nbsp;实&nbsp;业&nbsp;有&nbsp;限&nbsp;公&nbsp;司<br>
+						槽&nbsp;车&nbsp;灌&nbsp;装&nbsp;通&nbsp;知&nbsp;单
+					</span><br>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td><table width="96%" border="0" cellspacing="0"
+					cellpadding="0">
+					<tr>
+						<td width="50%" height="25"><div align="center">****年**月**日</div></td>
+						<td width="50%"><div align="right">编号：**********</div></td>
+					</tr>
+				</table></td>
+		</tr>
+
+		<tr>
+			<td><TABLE style="BORDER-COLLAPSE: collapse" borderColor=#999999
+					cellSpacing=0 cellPadding=5 width="96%" align=center
+					bgColor=#ffffff border=1>
+					<TBODY>
+						<TR>
+							<TD width="15%"><div align="center">车&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号</div></TD>
+							<TD colspan=2>&nbsp;</TD>
+							<TD width="9%">空<span class="style9">&nbsp;</span>车<span
+								class="style9">&nbsp;</span>重
+							</TD>
+							<TD width="19%">&nbsp;</TD>
+							<TD width="10%">重<span class="style9">&nbsp;</span>车<span
+								class="style9">&nbsp;</span>重
+							</TD>
+							<TD width="29%"></TD>
+						</TR>
+						<TR>
+							<TD height="25"><div align="center">品&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名</div></TD>
+							<TD colspan=2>&nbsp;</TD>
+							<TD>比&nbsp;&nbsp;&nbsp;<span class="style9">&nbsp;</span>重
+							</TD>
+							<TD colspan=3>&nbsp;</TD>
+
+						</TR>
+						<TR>
+							<TD><div align="center">装、卸货类别</div></TD>
+							<TD width="5%">槽号</TD>
+							<TD width="13%"></TD>
+							<TD>进&nbsp;&nbsp;&nbsp;<span class="style9">&nbsp;</span>口
+							</TD>
+							<TD>&nbsp;</TD>
+							<TD>出&nbsp;&nbsp;&nbsp;<span class="style9">&nbsp;</span>口
+							</TD>
+							<TD>&nbsp;</TD>
+						</TR>
+						<TR>
+							<TD><div align="center">货主通知承载量</div></TD>
+							<TD colspan=2>&nbsp;</TD>
+							<TD>换算容积</TD>
+							<TD colspan=3>&nbsp;</TD>
+
+						</TR>
+						<TR>
+							<TD><div align="center">司机确认后签字</div></TD>
+							<TD colspan=2>&nbsp;</TD>
+							<TD>装车前流<br> 量计累计
+							</TD>
+							<TD>&nbsp;</TD>
+							<TD>装车后流<br> 量计累计
+							</TD>
+							<TD>&nbsp;</TD>
+						</TR>
+						<TR>
+							<TD><div align="center">备&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注</div></TD>
+							<TD colspan=6>&nbsp;</TD>
+						</TR>
+						<TR>
+							<td colspan=7><table width="100%" border="0" cellspacing="0"
+									cellpadding="0">
+									<tr>
+										<td width="14%"><div align="center">灌装：</div></td>
+										<td width="18%">&nbsp;</td>
+										<td width="17%"><div align="center">稽查：</div></td>
+										<td width="17%">&nbsp;</td>
+										<td width="17%"><div align="center">填表：</div></td>
+										<td width="17%">&nbsp;</td>
+									</tr>
+								</table></TD>
+
+						</TR>
+					</TBODY>
+				</TABLE></td>
+		</tr>
+		<tr>
+			<td height="70"><div align="center" class="style6">越洋公司装车前司机自行检查表</div></td>
+		</tr>
+		<tr>
+			<td><TABLE style="BORDER-COLLAPSE: collapse" borderColor=#999999
+					cellSpacing=0 cellPadding=5 width="96%" align=center
+					bgColor=#ffffff border=1>
+					<TBODY>
+						<TR>
+							<td width="3%">&nbsp;</td>
+							<td width="69%"><div align="center" class="style9">项&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;目</div></td>
+							<td width="28%"><div align="center">记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;录</div></td>
+						</TR>
+						<TR>
+							<td>1</td>
+							<td><span class="style9">为了安全达到任务，司机绝对无条件服从槽区人员的指挥。</span></td>
+							<td>&nbsp;</td>
+						</TR>
+						<TR>
+							<td>2</td>
+							<td><span class="style9">将车停放适当位置，煞车煞紧，引擎熄火，严禁烟火。</span></td>
+							<td>&nbsp;</td>
+						</TR>
+						<TR>
+							<td>3</td>
+							<td><span class="style9">将斜木快塞到轮胎底下，防止灌装时车辆滑动。</span></td>
+							<td>&nbsp;</td>
+						</TR>
+						<TR>
+							<td>4</td>
+							<td><span class="style9">请将启动钥匙交给本厂灌装人员暂为保管。</span></td>
+							<td>&nbsp;</td>
+						</TR>
+						<TR>
+							<td>5</td>
+							<td><span class="style9">检查槽内是否洁净，卸料底阀是否确定完全关闭。</span></td>
+							<td>&nbsp;</td>
+						</TR>
+						<TR>
+							<td>6</td>
+							<td><span class="style9">确实依规定接妥接地线。</span></td>
+							<td>&nbsp;</td>
+						</TR>
+						<TR>
+							<td>7</td>
+							<td><span class="style9">与本厂灌装人员确认欲灌装料品及槽号无误。</span></td>
+							<td>&nbsp;</td>
+						</TR>
+						<TR>
+							<td>8</td>
+							<td><span class="style9">确实穿着个人防护用具。</span></td>
+							<td>&nbsp;</td>
+						</TR>
+						<TR>
+							<td>9</td>
+							<td><span class="style9">轻开闭人孔盖，操作时避免撞击，以免发生火花。</span></td>
+							<td>&nbsp;</td>
+						</TR>
+						<TR>
+							<td>10</td>
+							<td><span class="style9">司机不可擅离灌装车。配合灌车安全作业，意外发生时紧急应变。</span></td>
+							<td>&nbsp;</td>
+						</TR>
+						<TR>
+							<td><br> 说<br> <br> <br> 明<br> <br></td>
+							<td valign="top"><span class="style9">1、槽区，请遵守厂区规定，若未依规定而导致意外，本司概不负责。<br>
+									2、本检点记录请司机确认无误后打&lt;图片&gt;，并签名交于本厂灌装人员。本厂<br>
+									&nbsp;&nbsp;&nbsp;灌装人逐项确认后始可灌装。（否则请油灌车司机再重新检点才可灌装）<br>
+									&nbsp;&nbsp;&nbsp;灌装作业当天下班前灌装员交于组长稽核签字，组长汇总交主管存档。 <br>
+							</span></td>
+							<td>&nbsp;</td>
+						</TR>
+						<TR>
+							<td><br> 备<br> <br> <br> 注<br> <br></td>
+							<td valign="top">&nbsp;</td>
+							<td>&nbsp;</td>
+						</TR>
+					</TBODY>
+				</table></td>
+		</tr>
+		<tr>
+			<td><table width="96%" border="0" cellspacing="0"
+					cellpadding="0">
+					<tr>
+						<td width="11%" height="29"><div align="center">稽核：</div></td>
+						<td width="11%">&nbsp;</td>
+						<td width="12%"><div align="center">组长：</div></td>
+						<td width="11%">&nbsp;</td>
+						<td width="12%">灌装人员：</td>
+						<td width="15%">&nbsp;</td>
+						<td width="13%">司机：</td>
+						<td width="15%">&nbsp;</td>
+					</tr>
+				</table></td>
+		</tr>
+	</table>
+	<DIV align="center" id="dayinDiv" name="dayinDiv">
+		<input type="button" class="tab" value="打印" onclick="printTure();">&nbsp;&nbsp;
+		<input type="button" class="tab" value="打印预览" onclick="printpr();">
+		<input type="hidden" name="qingkongyema" id="qingkongyema" class="tab"
+			value="清空页码" onclick="pagesetup_null()">&nbsp;&nbsp; <input
+			type="hidden" class="tab" value="恢复页码" onclick="pagesetup_default()">
+	</DIV>
+
+</BODY>
+</HTML>

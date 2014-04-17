@@ -43,6 +43,14 @@ demoArr.push({
 			date : '2014/03/05',
 			href : 'demo/semantic/index.html',
 			text : 'demo/semantic/index.html'
+		}, {
+			date : '2014/04/17',
+			href : 'demo/print/index.html',
+			text : 'demo/print/index.html'
+		}, {
+			date : '2014/04/17',
+			href : 'demo/print/index2.html',
+			text : 'demo/print/index2.html'
 		});
 
 jQuery(function($) {
