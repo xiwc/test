@@ -51,6 +51,18 @@ demoArr.push({
 			date : '2014/04/17',
 			href : 'demo/print/index2.html',
 			text : 'demo/print/index2.html'
+		}, {
+			date : '2014/04/21',
+			href : 'demo/turn/demos/bible/index.html',
+			text : 'demo/turn/demos/bible/index.html'
+		}, {
+			date : '2014/04/21',
+			href : 'demo/turn/demos/magazine/index.html',
+			text : 'demo/turn/demos/magazine/index.html'
+		}, {
+			date : '2014/04/21',
+			href : 'demo/turn/demos/magazine_single/index.html',
+			text : 'demo/turn/demos/magazine_single/index.html'
 		});
 
 jQuery(function($) {
