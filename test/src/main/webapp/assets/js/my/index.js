@@ -1,5 +1,9 @@
 var demoArr = [];
 demoArr.push({
+			date : '2014/04/25',
+			href : 'demo/tinybox2/index.html',
+			text : 'demo/tinybox2/index.html'
+		}, {
 			date : '2014/01/10',
 			href : 'assets/page/ext-test.html',
 			text : 'assets/page/ext-test.html'
@@ -63,6 +67,10 @@ demoArr.push({
 			date : '2014/04/21',
 			href : 'demo/turn/demos/magazine_single/index.html',
 			text : 'demo/turn/demos/magazine_single/index.html'
+		}, {
+			date : '2014/04/24',
+			href : 'demo/datepicker/index.html',
+			text : 'demo/datepicker/index.html'
 		});
 
 jQuery(function($) {

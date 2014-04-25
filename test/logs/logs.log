@@ -1,0 +1,2204 @@
+[DEBUG] [2014-04-25 15:43:18,500] [org.jboss.logging] [localhost-startStop-1] [0]
+Logging Provider: org.jboss.logging.Log4jLoggerProvider
+
+[INFO] [2014-04-25 15:43:18,501] [org.hibernate.validator.internal.util.Version] [localhost-startStop-1] [1]
+HV000001: Hibernate Validator 5.0.2.Final
+
+[DEBUG] [2014-04-25 15:43:18,525] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [25]
+Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+
+[DEBUG] [2014-04-25 15:43:18,530] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [30]
+Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+
+[DEBUG] [2014-04-25 15:43:18,535] [org.hibernate.validator.internal.engine.ConfigurationImpl] [localhost-startStop-1] [35]
+Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+
+[DEBUG] [2014-04-25 15:43:18,536] [org.hibernate.validator.internal.engine.ConfigurationImpl] [localhost-startStop-1] [36]
+Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+
+[DEBUG] [2014-04-25 15:43:18,546] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [46]
+Trying to load META-INF/validation.xml for XML based Validator configuration.
+
+[DEBUG] [2014-04-25 15:43:18,556] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [56]
+No META-INF/validation.xml found. Using annotation based configuration only.
+
+[DEBUG] [2014-04-25 15:43:19,436] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [936]
+Adding type registration boolean -> org.hibernate.type.BooleanType@562fbe44
+
+[DEBUG] [2014-04-25 15:43:19,436] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [936]
+Adding type registration boolean -> org.hibernate.type.BooleanType@562fbe44
+
+[DEBUG] [2014-04-25 15:43:19,436] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [936]
+Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@562fbe44
+
+[DEBUG] [2014-04-25 15:43:19,437] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [937]
+Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@52ef517b
+
+[DEBUG] [2014-04-25 15:43:19,439] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [939]
+Adding type registration true_false -> org.hibernate.type.TrueFalseType@7a03d6a5
+
+[DEBUG] [2014-04-25 15:43:19,440] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [940]
+Adding type registration yes_no -> org.hibernate.type.YesNoType@465d9297
+
+[DEBUG] [2014-04-25 15:43:19,442] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [942]
+Adding type registration byte -> org.hibernate.type.ByteType@5907cac7
+
+[DEBUG] [2014-04-25 15:43:19,443] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [943]
+Adding type registration byte -> org.hibernate.type.ByteType@5907cac7
+
+[DEBUG] [2014-04-25 15:43:19,443] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [943]
+Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@5907cac7
+
+[DEBUG] [2014-04-25 15:43:19,444] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [944]
+Adding type registration character -> org.hibernate.type.CharacterType@23941447
+
+[DEBUG] [2014-04-25 15:43:19,444] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [944]
+Adding type registration char -> org.hibernate.type.CharacterType@23941447
+
+[DEBUG] [2014-04-25 15:43:19,444] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [944]
+Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@23941447
+
+[DEBUG] [2014-04-25 15:43:19,448] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [948]
+Adding type registration short -> org.hibernate.type.ShortType@69544e49
+
+[DEBUG] [2014-04-25 15:43:19,448] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [948]
+Adding type registration short -> org.hibernate.type.ShortType@69544e49
+
+[DEBUG] [2014-04-25 15:43:19,448] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [948]
+Adding type registration java.lang.Short -> org.hibernate.type.ShortType@69544e49
+
+[DEBUG] [2014-04-25 15:43:19,450] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [950]
+Adding type registration integer -> org.hibernate.type.IntegerType@574b597
+
+[DEBUG] [2014-04-25 15:43:19,450] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [950]
+Adding type registration int -> org.hibernate.type.IntegerType@574b597
+
+[DEBUG] [2014-04-25 15:43:19,450] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [950]
+Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@574b597
+
+[DEBUG] [2014-04-25 15:43:19,453] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [953]
+Adding type registration long -> org.hibernate.type.LongType@2219f75e
+
+[DEBUG] [2014-04-25 15:43:19,453] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [953]
+Adding type registration long -> org.hibernate.type.LongType@2219f75e
+
+[DEBUG] [2014-04-25 15:43:19,453] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [953]
+Adding type registration java.lang.Long -> org.hibernate.type.LongType@2219f75e
+
+[DEBUG] [2014-04-25 15:43:19,456] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [956]
+Adding type registration float -> org.hibernate.type.FloatType@140962cf
+
+[DEBUG] [2014-04-25 15:43:19,457] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [957]
+Adding type registration float -> org.hibernate.type.FloatType@140962cf
+
+[DEBUG] [2014-04-25 15:43:19,457] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [957]
+Adding type registration java.lang.Float -> org.hibernate.type.FloatType@140962cf
+
+[DEBUG] [2014-04-25 15:43:19,459] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [959]
+Adding type registration double -> org.hibernate.type.DoubleType@4248bff1
+
+[DEBUG] [2014-04-25 15:43:19,459] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [959]
+Adding type registration double -> org.hibernate.type.DoubleType@4248bff1
+
+[DEBUG] [2014-04-25 15:43:19,459] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [959]
+Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@4248bff1
+
+[DEBUG] [2014-04-25 15:43:19,461] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [961]
+Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@6ddcebeb
+
+[DEBUG] [2014-04-25 15:43:19,462] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [962]
+Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@6ddcebeb
+
+[DEBUG] [2014-04-25 15:43:19,463] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [963]
+Adding type registration big_integer -> org.hibernate.type.BigIntegerType@47755ae0
+
+[DEBUG] [2014-04-25 15:43:19,463] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [963]
+Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@47755ae0
+
+[DEBUG] [2014-04-25 15:43:19,464] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [964]
+Adding type registration string -> org.hibernate.type.StringType@51f347a
+
+[DEBUG] [2014-04-25 15:43:19,464] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [964]
+Adding type registration java.lang.String -> org.hibernate.type.StringType@51f347a
+
+[DEBUG] [2014-04-25 15:43:19,466] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [966]
+Adding type registration url -> org.hibernate.type.UrlType@37a6dd
+
+[DEBUG] [2014-04-25 15:43:19,466] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [966]
+Adding type registration java.net.URL -> org.hibernate.type.UrlType@37a6dd
+
+[DEBUG] [2014-04-25 15:43:19,468] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [968]
+Adding type registration date -> org.hibernate.type.DateType@d4b1a9f
+
+[DEBUG] [2014-04-25 15:43:19,468] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [968]
+Adding type registration java.sql.Date -> org.hibernate.type.DateType@d4b1a9f
+
+[DEBUG] [2014-04-25 15:43:19,470] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [970]
+Adding type registration time -> org.hibernate.type.TimeType@31aea240
+
+[DEBUG] [2014-04-25 15:43:19,470] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [970]
+Adding type registration java.sql.Time -> org.hibernate.type.TimeType@31aea240
+
+[DEBUG] [2014-04-25 15:43:19,472] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [972]
+Adding type registration timestamp -> org.hibernate.type.TimestampType@3b7497ac
+
+[DEBUG] [2014-04-25 15:43:19,472] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [972]
+Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@3b7497ac
+
+[DEBUG] [2014-04-25 15:43:19,472] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [972]
+Adding type registration java.util.Date -> org.hibernate.type.TimestampType@3b7497ac
+
+[DEBUG] [2014-04-25 15:43:19,473] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [973]
+Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@57db4fa7
+
+[DEBUG] [2014-04-25 15:43:19,475] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [975]
+Adding type registration calendar -> org.hibernate.type.CalendarType@3c64db02
+
+[DEBUG] [2014-04-25 15:43:19,475] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [975]
+Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@3c64db02
+
+[DEBUG] [2014-04-25 15:43:19,475] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [975]
+Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@3c64db02
+
+[DEBUG] [2014-04-25 15:43:19,476] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [976]
+Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@7890196c
+
+[DEBUG] [2014-04-25 15:43:19,477] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [977]
+Adding type registration locale -> org.hibernate.type.LocaleType@46837332
+
+[DEBUG] [2014-04-25 15:43:19,477] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [977]
+Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@46837332
+
+[DEBUG] [2014-04-25 15:43:19,478] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [978]
+Adding type registration currency -> org.hibernate.type.CurrencyType@388ab10c
+
+[DEBUG] [2014-04-25 15:43:19,478] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [978]
+Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@388ab10c
+
+[DEBUG] [2014-04-25 15:43:19,479] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [979]
+Adding type registration timezone -> org.hibernate.type.TimeZoneType@510f6874
+
+[DEBUG] [2014-04-25 15:43:19,479] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [979]
+Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@510f6874
+
+[DEBUG] [2014-04-25 15:43:19,480] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [980]
+Adding type registration class -> org.hibernate.type.ClassType@1e5b233e
+
+[DEBUG] [2014-04-25 15:43:19,481] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [981]
+Adding type registration java.lang.Class -> org.hibernate.type.ClassType@1e5b233e
+
+[DEBUG] [2014-04-25 15:43:19,482] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [982]
+Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@451900c6
+
+[DEBUG] [2014-04-25 15:43:19,482] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [982]
+Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@451900c6
+
+[DEBUG] [2014-04-25 15:43:19,483] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [983]
+Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@53dc2b19
+
+[DEBUG] [2014-04-25 15:43:19,484] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [984]
+Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@431d8faa
+
+[DEBUG] [2014-04-25 15:43:19,487] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [987]
+Adding type registration binary -> org.hibernate.type.BinaryType@54bdcfc1
+
+[DEBUG] [2014-04-25 15:43:19,487] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [987]
+Adding type registration byte[] -> org.hibernate.type.BinaryType@54bdcfc1
+
+[DEBUG] [2014-04-25 15:43:19,487] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [987]
+Adding type registration [B -> org.hibernate.type.BinaryType@54bdcfc1
+
+[DEBUG] [2014-04-25 15:43:19,489] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [989]
+Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@416b21e
+
+[DEBUG] [2014-04-25 15:43:19,489] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [989]
+Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@416b21e
+
+[DEBUG] [2014-04-25 15:43:19,489] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [989]
+Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@416b21e
+
+[DEBUG] [2014-04-25 15:43:19,491] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [991]
+Adding type registration image -> org.hibernate.type.ImageType@31efd7b7
+
+[DEBUG] [2014-04-25 15:43:19,492] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [992]
+Adding type registration characters -> org.hibernate.type.CharArrayType@74730024
+
+[DEBUG] [2014-04-25 15:43:19,492] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [992]
+Adding type registration char[] -> org.hibernate.type.CharArrayType@74730024
+
+[DEBUG] [2014-04-25 15:43:19,492] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [992]
+Adding type registration [C -> org.hibernate.type.CharArrayType@74730024
+
+[DEBUG] [2014-04-25 15:43:19,493] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [993]
+Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@518cc3ca
+
+[DEBUG] [2014-04-25 15:43:19,493] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [993]
+Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@518cc3ca
+
+[DEBUG] [2014-04-25 15:43:19,494] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [994]
+Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@518cc3ca
+
+[DEBUG] [2014-04-25 15:43:19,495] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [995]
+Adding type registration text -> org.hibernate.type.TextType@25d415d4
+
+[DEBUG] [2014-04-25 15:43:19,502] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1002]
+Adding type registration blob -> org.hibernate.type.BlobType@43ad48ea
+
+[DEBUG] [2014-04-25 15:43:19,502] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1002]
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@43ad48ea
+
+[DEBUG] [2014-04-25 15:43:19,502] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1002]
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@6d40c31
+
+[DEBUG] [2014-04-25 15:43:19,503] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1003]
+Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@7abe51fc
+
+[DEBUG] [2014-04-25 15:43:19,508] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1008]
+Adding type registration clob -> org.hibernate.type.ClobType@da9f889
+
+[DEBUG] [2014-04-25 15:43:19,508] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1008]
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@da9f889
+
+[DEBUG] [2014-04-25 15:43:19,508] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1008]
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@41705b90
+
+[DEBUG] [2014-04-25 15:43:19,509] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1009]
+Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@375b37ac
+
+[DEBUG] [2014-04-25 15:43:19,510] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1010]
+Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@1f69b08
+
+[DEBUG] [2014-04-25 15:43:19,511] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1011]
+Adding type registration serializable -> org.hibernate.type.SerializableType@15b4fb4c
+
+[DEBUG] [2014-04-25 15:43:19,514] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1014]
+Adding type registration object -> org.hibernate.type.ObjectType@4ad6746e
+
+[DEBUG] [2014-04-25 15:43:19,514] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1014]
+Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4ad6746e
+
+[DEBUG] [2014-04-25 15:43:19,515] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1015]
+Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@5abe029d
+
+[DEBUG] [2014-04-25 15:43:19,515] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1015]
+Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@709dbff5
+
+[DEBUG] [2014-04-25 15:43:19,515] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1015]
+Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@4a5a796
+
+[DEBUG] [2014-04-25 15:43:19,515] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1015]
+Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@179d6b3c
+
+[DEBUG] [2014-04-25 15:43:19,515] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1015]
+Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@5feb3c40
+
+[DEBUG] [2014-04-25 15:43:19,515] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1015]
+Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@4cc0bef2
+
+[DEBUG] [2014-04-25 15:43:19,515] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1015]
+Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@238293c
+
+[DEBUG] [2014-04-25 15:43:19,515] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1015]
+Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@351b2347
+
+[INFO] [2014-04-25 15:43:19,535] [org.hibernate.annotations.common.Version] [localhost-startStop-1] [1035]
+Hibernate Commons Annotations 3.2.0.Final
+
+[INFO] [2014-04-25 15:43:19,540] [org.hibernate.cfg.Environment] [localhost-startStop-1] [1040]
+Hibernate 3.6.10.Final
+
+[INFO] [2014-04-25 15:43:19,541] [org.hibernate.cfg.Environment] [localhost-startStop-1] [1041]
+hibernate.properties not found
+
+[INFO] [2014-04-25 15:43:19,546] [org.hibernate.cfg.Environment] [localhost-startStop-1] [1046]
+Bytecode provider name : javassist
+
+[INFO] [2014-04-25 15:43:19,549] [org.hibernate.cfg.Environment] [localhost-startStop-1] [1049]
+using JDK 1.4 java.sql.Timestamp handling
+
+[DEBUG] [2014-04-25 15:43:19,597] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1097]
+Registering IdentifierGenerator strategy [uuid2] -> [class org.hibernate.id.UUIDGenerator]
+
+[DEBUG] [2014-04-25 15:43:19,597] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1097]
+Registering IdentifierGenerator strategy [guid] -> [class org.hibernate.id.GUIDGenerator]
+
+[DEBUG] [2014-04-25 15:43:19,598] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1098]
+Registering IdentifierGenerator strategy [uuid] -> [class org.hibernate.id.UUIDHexGenerator]
+
+[DEBUG] [2014-04-25 15:43:19,599] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1099]
+Registering IdentifierGenerator strategy [uuid.hex] -> [class org.hibernate.id.UUIDHexGenerator]
+
+[DEBUG] [2014-04-25 15:43:19,601] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1101]
+Registering IdentifierGenerator strategy [hilo] -> [class org.hibernate.id.TableHiLoGenerator]
+
+[DEBUG] [2014-04-25 15:43:19,602] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1102]
+Registering IdentifierGenerator strategy [assigned] -> [class org.hibernate.id.Assigned]
+
+[DEBUG] [2014-04-25 15:43:19,604] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1104]
+Registering IdentifierGenerator strategy [identity] -> [class org.hibernate.id.IdentityGenerator]
+
+[DEBUG] [2014-04-25 15:43:19,604] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1104]
+Registering IdentifierGenerator strategy [select] -> [class org.hibernate.id.SelectGenerator]
+
+[DEBUG] [2014-04-25 15:43:19,605] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1105]
+Registering IdentifierGenerator strategy [sequence] -> [class org.hibernate.id.SequenceGenerator]
+
+[DEBUG] [2014-04-25 15:43:19,606] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1106]
+Registering IdentifierGenerator strategy [seqhilo] -> [class org.hibernate.id.SequenceHiLoGenerator]
+
+[DEBUG] [2014-04-25 15:43:19,607] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1107]
+Registering IdentifierGenerator strategy [increment] -> [class org.hibernate.id.IncrementGenerator]
+
+[DEBUG] [2014-04-25 15:43:19,608] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1108]
+Registering IdentifierGenerator strategy [foreign] -> [class org.hibernate.id.ForeignGenerator]
+
+[DEBUG] [2014-04-25 15:43:19,608] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1108]
+Registering IdentifierGenerator strategy [sequence-identity] -> [class org.hibernate.id.SequenceIdentityGenerator]
+
+[DEBUG] [2014-04-25 15:43:19,610] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1110]
+Registering IdentifierGenerator strategy [enhanced-sequence] -> [class org.hibernate.id.enhanced.SequenceStyleGenerator]
+
+[DEBUG] [2014-04-25 15:43:19,610] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1110]
+Registering IdentifierGenerator strategy [enhanced-table] -> [class org.hibernate.id.enhanced.TableGenerator]
+
+[INFO] [2014-04-25 15:43:19,614] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1114]
+configuring from url: file:/C:/Users/thinkpad/git/test/test/target/classes/hibernate.cfg.xml
+
+[DEBUG] [2014-04-25 15:43:19,640] [org.hibernate.util.DTDEntityResolver] [localhost-startStop-1] [1140]
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+
+[WARN] [2014-04-25 15:43:19,640] [org.hibernate.util.DTDEntityResolver] [localhost-startStop-1] [1140]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+
+[DEBUG] [2014-04-25 15:43:19,640] [org.hibernate.util.DTDEntityResolver] [localhost-startStop-1] [1140]
+attempting to resolve on classpath under org/hibernate/
+
+[DEBUG] [2014-04-25 15:43:19,641] [org.hibernate.util.DTDEntityResolver] [localhost-startStop-1] [1141]
+located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+
+[DEBUG] [2014-04-25 15:43:19,668] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1168]
+hibernate.bytecode.use_reflection_optimizer=false
+
+[DEBUG] [2014-04-25 15:43:19,668] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1168]
+hibernate.check_nullability=true
+
+[DEBUG] [2014-04-25 15:43:19,668] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1168]
+hibernate.connection.driver_class=com.mysql.jdbc.Driver
+
+[DEBUG] [2014-04-25 15:43:19,668] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1168]
+hibernate.connection.password=skycloud
+
+[DEBUG] [2014-04-25 15:43:19,668] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1168]
+hibernate.connection.url=jdbc:mysql://localhost:3306/afl
+
+[DEBUG] [2014-04-25 15:43:19,669] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1169]
+hibernate.connection.username=root
+
+[DEBUG] [2014-04-25 15:43:19,669] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1169]
+hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+[DEBUG] [2014-04-25 15:43:19,669] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1169]
+hibernate.format_sql=true
+
+[DEBUG] [2014-04-25 15:43:19,669] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1169]
+hibernate.search.autoregister_listeners=false
+
+[DEBUG] [2014-04-25 15:43:19,669] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1169]
+hibernate.show_sql=false
+
+[DEBUG] [2014-04-25 15:43:19,669] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1169]
+hibernate.hbm2ddl.auto=update
+
+[INFO] [2014-04-25 15:43:19,669] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1169]
+Configured SessionFactory: SessionFactory
+
+[DEBUG] [2014-04-25 15:43:19,670] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1170]
+properties: {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, catalina.base=C:\Users\thinkpad\git\test\test\target\tomcat, hibernate.connection.url=jdbc:mysql://localhost:3306/afl, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, catalina.useNaming=true, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_45\jre\classes, java.util.logging.config.file=C:\Users\thinkpad\git\test\test\target\tomcat\conf\logging.properties, hibernate.current_session_context_class=org.springframework.orm.hibernate3.SpringSessionContext, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_45-b18, user.name=thinkpad, shared.loader=, guice.disable.misplaced.annotation.check=true, tomcat.util.buf.StringCache.byte.enabled=true, hibernate.session_factory_name=SessionFactory, hibernate.search.autoregister_listeners=false, user.language=zh, java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0_45\jre\bin, classworlds.conf=D:\SourceCode\Java\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2746672649014012767.tmp, java.version=1.7.0_45, java.util.logging.manager=org.apache.juli.ClassLoaderLogManager, user.timezone=Asia/Shanghai, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0_45\jre\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=GBK, file.encoding.pkg=sun.io, package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper., file.separator=\, java.specification.name=Java Platform API Specification, hibernate.format_sql=true, java.class.version=51.0, user.country=CN, java.home=C:\Program Files\Java\jdk1.7.0_45\jre, java.vm.info=mixed mode, os.version=6.1, hibernate.transaction.factory_class=org.springframework.orm.hibernate3.SpringTransactionFactory, path.separator=;, java.vm.version=24.45-b08, hibernate.connection.password=skycloud, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, tomcat.util.scan.DefaultJarScanner.jarsToSkip=bootstrap.jar,commons-daemon.jar,tomcat-juli.jar,annotations-api.jar,el-api.jar,jsp-api.jar,servlet-api.jar,catalina.jar,catalina-ant.jar,catalina-ha.jar,catalina-tribes.jar,jasper.jar,jasper-el.jar,ecj-*.jar,tomcat-api.jar,tomcat-util.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-jni.jar,tomcat-spdy.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-juli-adapters.jar,catalina-jmx-remote.jar,catalina-ws.jar,tomcat-jdbc.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,jstl.jar,geronimo-spec-jaxrpc*.jar,wsdl4j*.jar,ant.jar,ant-junit*.jar,aspectj*.jar,jmx.jar,h2*.jar,hibernate*.jar,httpclient*.jar,jmx-tools.jar,jta*.jar,log4j*.jar,mail*.jar,slf4j*.jar,xercesImpl.jar,xmlParserAPIs.jar,xml-apis.jar,access-bridge-64.jar,dnsns.jar,jaccess.jar,ldapsec.jar,localedata.jar,sunjce_provider.jar,sunmscapi.jar,sunpkcs11.jar,jhall.jar,tools.jar,sunec.jar,zipfs.jar,gnome-java-bridge.jar,pulse-java.jar,apple_provider.jar,AppleScriptEngine.jar,CoreAudio.jar,dns_sd.jar,j3daudio.jar,j3dcore.jar,j3dutils.jar,jai_core.jar,jai_codec.jar,mlibwrapper_jai.jar,MRJToolkit.jar,vecmath.jar,junit.jar,junit-*.jar,ant-launcher.jar, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=root, package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper., user.script=, hibernate.check_nullability=true, java.naming.factory.url.pkgs=org.apache.naming, user.home=C:\Users\thinkpad, org.apache.catalina.startup.ContextConfig.jarsToSkip=, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jdk1.7.0_45\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Program Files\Java\jdk1.7.0_45\jre\bin;D:\program\WinSCP\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.4\;D:\program\TortoiseSVN\bin;D:\program\nodejs\;C:\Program Files\cURL\bin;D:\program;C:\Users\thinkpad\AppData\Roaming\npm;D:\program\Nmap;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, org.apache.catalina.startup.TldConfig.jarsToSkip=, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQLDialect, common.loader=${catalina.base}/lib,${catalina.base}/lib/*.jar,${catalina.home}/lib,${catalina.home}/lib/*.jar, maven.home=C:\Users\thinkpad\git\test\test\EMBEDDED, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -B -Dmaven.test.skip=true tomcat7:run, java.class.path=/D:/program/eclipse/configuration/org.eclipse.osgi/bundles/531/1/.cp/jars/plexus-classworlds-2.4.jar, hibernate.bytecode.use_reflection_optimizer=false, maven.test.skip=true, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, catalina.home=C:\Users\thinkpad\git\test\test\target\tomcat, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, java.io.tmpdir=C:\Users\thinkpad\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, server.loader=, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.7.0_45\jre\lib\ext;C:\windows\Sun\Java\lib\ext, user.dir=C:\Users\thinkpad\git\test\test, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=UTF-8, java.specification.version=1.7, hibernate.show_sql=false, maven.bootclasspath=/D:/program/eclipse/configuration/org.eclipse.osgi/bundles/531/1/.cp/jars/plexus-classworlds-2.4.jar}
+
+[DEBUG] [2014-04-25 15:43:19,705] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1205]
+Processing hbm.xml files
+
+[DEBUG] [2014-04-25 15:43:19,706] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1206]
+Process annotated classes
+
+[DEBUG] [2014-04-25 15:43:19,708] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1208]
+processing fk mappings (*ToOne and JoinedSubclass)
+
+[DEBUG] [2014-04-25 15:43:19,709] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1209]
+processing extends queue
+
+[DEBUG] [2014-04-25 15:43:19,709] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1209]
+processing extends queue
+
+[DEBUG] [2014-04-25 15:43:19,709] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1209]
+processing collection mappings
+
+[DEBUG] [2014-04-25 15:43:19,709] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1209]
+processing native query and ResultSetMapping mappings
+
+[DEBUG] [2014-04-25 15:43:19,710] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1210]
+processing association property references
+
+[DEBUG] [2014-04-25 15:43:19,710] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1210]
+processing foreign key constraints
+
+[INFO] [2014-04-25 15:43:19,717] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1217]
+Hibernate Validator not found: ignoring
+
+[DEBUG] [2014-04-25 15:43:19,720] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [1220]
+Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+
+[DEBUG] [2014-04-25 15:43:19,720] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [1220]
+Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+
+[DEBUG] [2014-04-25 15:43:19,720] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [1220]
+Trying to load META-INF/validation.xml for XML based Validator configuration.
+
+[DEBUG] [2014-04-25 15:43:19,721] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [1221]
+No META-INF/validation.xml found. Using annotation based configuration only.
+
+[DEBUG] [2014-04-25 15:43:19,723] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1223]
+Preparing to build session factory with filters : {}
+
+[DEBUG] [2014-04-25 15:43:19,723] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1223]
+Processing hbm.xml files
+
+[DEBUG] [2014-04-25 15:43:19,723] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1223]
+Process annotated classes
+
+[DEBUG] [2014-04-25 15:43:19,723] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1223]
+processing fk mappings (*ToOne and JoinedSubclass)
+
+[DEBUG] [2014-04-25 15:43:19,723] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1223]
+processing extends queue
+
+[DEBUG] [2014-04-25 15:43:19,723] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1223]
+processing extends queue
+
+[DEBUG] [2014-04-25 15:43:19,723] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1223]
+processing collection mappings
+
+[DEBUG] [2014-04-25 15:43:19,723] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1223]
+processing native query and ResultSetMapping mappings
+
+[DEBUG] [2014-04-25 15:43:19,723] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1223]
+processing association property references
+
+[DEBUG] [2014-04-25 15:43:19,723] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1223]
+processing foreign key constraints
+
+[DEBUG] [2014-04-25 15:43:19,725] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [1225]
+Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+
+[DEBUG] [2014-04-25 15:43:19,725] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [1225]
+Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+
+[DEBUG] [2014-04-25 15:43:19,726] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [1226]
+Trying to load META-INF/validation.xml for XML based Validator configuration.
+
+[DEBUG] [2014-04-25 15:43:19,727] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [1227]
+No META-INF/validation.xml found. Using annotation based configuration only.
+
+[DEBUG] [2014-04-25 15:43:19,729] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1229]
+Legacy Validator not present in classpath, ignoring event listener registration
+
+[DEBUG] [2014-04-25 15:43:19,729] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [1229]
+Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+
+[DEBUG] [2014-04-25 15:43:19,729] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [1229]
+Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+
+[DEBUG] [2014-04-25 15:43:19,729] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [1229]
+Trying to load META-INF/validation.xml for XML based Validator configuration.
+
+[DEBUG] [2014-04-25 15:43:19,730] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [1230]
+No META-INF/validation.xml found. Using annotation based configuration only.
+
+[INFO] [2014-04-25 15:43:19,734] [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] [localhost-startStop-1] [1234]
+Property hibernate.search.autoregister_listeners is set to false. No attempt will be made to register Hibernate Search event listeners.
+
+[INFO] [2014-04-25 15:43:19,737] [org.hibernate.connection.ConnectionProviderFactory] [localhost-startStop-1] [1237]
+Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+
+[INFO] [2014-04-25 15:43:20,182] [org.hibernate.dialect.Dialect] [localhost-startStop-1] [1682]
+Using dialect: org.hibernate.dialect.MySQLDialect
+
+[INFO] [2014-04-25 15:43:20,195] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1695]
+Database ->
+       name : MySQL
+    version : 5.6.14-log
+      major : 5
+      minor : 6
+
+[INFO] [2014-04-25 15:43:20,195] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1695]
+Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.28 ( Revision: alexander.soklakov@oracle.com-20131125092425-yvejy3xvci77ru3k )
+      major : 5
+      minor : 1
+
+[INFO] [2014-04-25 15:43:20,199] [org.hibernate.transaction.TransactionFactoryFactory] [localhost-startStop-1] [1699]
+Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+
+[INFO] [2014-04-25 15:43:20,201] [org.hibernate.transaction.TransactionManagerLookupFactory] [localhost-startStop-1] [1701]
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+
+[INFO] [2014-04-25 15:43:20,201] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1701]
+Automatic flush during beforeCompletion(): disabled
+
+[INFO] [2014-04-25 15:43:20,201] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1701]
+Automatic session close at end of transaction: disabled
+
+[INFO] [2014-04-25 15:43:20,201] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1701]
+JDBC batch size: 15
+
+[INFO] [2014-04-25 15:43:20,201] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1701]
+JDBC batch updates for versioned data: disabled
+
+[INFO] [2014-04-25 15:43:20,202] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1702]
+Scrollable result sets: enabled
+
+[DEBUG] [2014-04-25 15:43:20,202] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1702]
+Wrap result sets: disabled
+
+[INFO] [2014-04-25 15:43:20,202] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1702]
+JDBC3 getGeneratedKeys(): enabled
+
+[INFO] [2014-04-25 15:43:20,202] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1702]
+Connection release mode: auto
+
+[INFO] [2014-04-25 15:43:20,203] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1703]
+Maximum outer join fetch depth: 2
+
+[INFO] [2014-04-25 15:43:20,203] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1703]
+Default batch fetch size: 1
+
+[INFO] [2014-04-25 15:43:20,203] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1703]
+Generate SQL with comments: disabled
+
+[INFO] [2014-04-25 15:43:20,203] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1703]
+Order SQL updates by primary key: disabled
+
+[INFO] [2014-04-25 15:43:20,203] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1703]
+Order SQL inserts for batching: disabled
+
+[INFO] [2014-04-25 15:43:20,203] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1703]
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+
+[INFO] [2014-04-25 15:43:20,205] [org.hibernate.hql.ast.ASTQueryTranslatorFactory] [localhost-startStop-1] [1705]
+Using ASTQueryTranslatorFactory
+
+[INFO] [2014-04-25 15:43:20,205] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1705]
+Query language substitutions: {}
+
+[INFO] [2014-04-25 15:43:20,206] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1706]
+JPA-QL strict compliance: disabled
+
+[INFO] [2014-04-25 15:43:20,206] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1706]
+Second-level cache: enabled
+
+[INFO] [2014-04-25 15:43:20,206] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1706]
+Query cache: disabled
+
+[INFO] [2014-04-25 15:43:20,206] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1706]
+Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+
+[INFO] [2014-04-25 15:43:20,207] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1707]
+Optimize cache for minimal puts: disabled
+
+[INFO] [2014-04-25 15:43:20,207] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1707]
+Structured second-level cache entries: disabled
+
+[INFO] [2014-04-25 15:43:20,212] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1712]
+Statistics: disabled
+
+[INFO] [2014-04-25 15:43:20,212] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1712]
+Deleted entity synthetic identifier rollback: disabled
+
+[INFO] [2014-04-25 15:43:20,212] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1712]
+Default entity-mode: pojo
+
+[INFO] [2014-04-25 15:43:20,212] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1712]
+Named query checking : enabled
+
+[INFO] [2014-04-25 15:43:20,212] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1712]
+Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+
+[INFO] [2014-04-25 15:43:20,231] [org.hibernate.impl.SessionFactoryImpl] [localhost-startStop-1] [1731]
+building session factory
+
+[DEBUG] [2014-04-25 15:43:20,235] [org.hibernate.impl.SessionFactoryImpl] [localhost-startStop-1] [1735]
+Statistics initialized [enabled=false]}
+
+[DEBUG] [2014-04-25 15:43:20,237] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1737]
+Adding type registration boolean -> org.hibernate.type.BooleanType@562fbe44
+
+[DEBUG] [2014-04-25 15:43:20,237] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1737]
+Adding type registration boolean -> org.hibernate.type.BooleanType@562fbe44
+
+[DEBUG] [2014-04-25 15:43:20,237] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1737]
+Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@562fbe44
+
+[DEBUG] [2014-04-25 15:43:20,237] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1737]
+Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@52ef517b
+
+[DEBUG] [2014-04-25 15:43:20,237] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1737]
+Adding type registration true_false -> org.hibernate.type.TrueFalseType@7a03d6a5
+
+[DEBUG] [2014-04-25 15:43:20,237] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1737]
+Adding type registration yes_no -> org.hibernate.type.YesNoType@465d9297
+
+[DEBUG] [2014-04-25 15:43:20,237] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1737]
+Adding type registration byte -> org.hibernate.type.ByteType@5907cac7
+
+[DEBUG] [2014-04-25 15:43:20,238] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1738]
+Adding type registration byte -> org.hibernate.type.ByteType@5907cac7
+
+[DEBUG] [2014-04-25 15:43:20,239] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1739]
+Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@5907cac7
+
+[DEBUG] [2014-04-25 15:43:20,239] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1739]
+Adding type registration character -> org.hibernate.type.CharacterType@23941447
+
+[DEBUG] [2014-04-25 15:43:20,239] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1739]
+Adding type registration char -> org.hibernate.type.CharacterType@23941447
+
+[DEBUG] [2014-04-25 15:43:20,239] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1739]
+Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@23941447
+
+[DEBUG] [2014-04-25 15:43:20,239] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1739]
+Adding type registration short -> org.hibernate.type.ShortType@69544e49
+
+[DEBUG] [2014-04-25 15:43:20,239] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1739]
+Adding type registration short -> org.hibernate.type.ShortType@69544e49
+
+[DEBUG] [2014-04-25 15:43:20,240] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1740]
+Adding type registration java.lang.Short -> org.hibernate.type.ShortType@69544e49
+
+[DEBUG] [2014-04-25 15:43:20,240] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1740]
+Adding type registration integer -> org.hibernate.type.IntegerType@574b597
+
+[DEBUG] [2014-04-25 15:43:20,240] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1740]
+Adding type registration int -> org.hibernate.type.IntegerType@574b597
+
+[DEBUG] [2014-04-25 15:43:20,240] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1740]
+Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@574b597
+
+[DEBUG] [2014-04-25 15:43:20,240] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1740]
+Adding type registration long -> org.hibernate.type.LongType@2219f75e
+
+[DEBUG] [2014-04-25 15:43:20,240] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1740]
+Adding type registration long -> org.hibernate.type.LongType@2219f75e
+
+[DEBUG] [2014-04-25 15:43:20,240] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1740]
+Adding type registration java.lang.Long -> org.hibernate.type.LongType@2219f75e
+
+[DEBUG] [2014-04-25 15:43:20,240] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1740]
+Adding type registration float -> org.hibernate.type.FloatType@140962cf
+
+[DEBUG] [2014-04-25 15:43:20,240] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1740]
+Adding type registration float -> org.hibernate.type.FloatType@140962cf
+
+[DEBUG] [2014-04-25 15:43:20,240] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1740]
+Adding type registration java.lang.Float -> org.hibernate.type.FloatType@140962cf
+
+[DEBUG] [2014-04-25 15:43:20,240] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1740]
+Adding type registration double -> org.hibernate.type.DoubleType@4248bff1
+
+[DEBUG] [2014-04-25 15:43:20,240] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1740]
+Adding type registration double -> org.hibernate.type.DoubleType@4248bff1
+
+[DEBUG] [2014-04-25 15:43:20,240] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1740]
+Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@4248bff1
+
+[DEBUG] [2014-04-25 15:43:20,241] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1741]
+Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@6ddcebeb
+
+[DEBUG] [2014-04-25 15:43:20,241] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1741]
+Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@6ddcebeb
+
+[DEBUG] [2014-04-25 15:43:20,241] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1741]
+Adding type registration big_integer -> org.hibernate.type.BigIntegerType@47755ae0
+
+[DEBUG] [2014-04-25 15:43:20,241] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1741]
+Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@47755ae0
+
+[DEBUG] [2014-04-25 15:43:20,241] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1741]
+Adding type registration string -> org.hibernate.type.StringType@51f347a
+
+[DEBUG] [2014-04-25 15:43:20,241] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1741]
+Adding type registration java.lang.String -> org.hibernate.type.StringType@51f347a
+
+[DEBUG] [2014-04-25 15:43:20,241] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1741]
+Adding type registration url -> org.hibernate.type.UrlType@37a6dd
+
+[DEBUG] [2014-04-25 15:43:20,241] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1741]
+Adding type registration java.net.URL -> org.hibernate.type.UrlType@37a6dd
+
+[DEBUG] [2014-04-25 15:43:20,241] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1741]
+Adding type registration date -> org.hibernate.type.DateType@d4b1a9f
+
+[DEBUG] [2014-04-25 15:43:20,241] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1741]
+Adding type registration java.sql.Date -> org.hibernate.type.DateType@d4b1a9f
+
+[DEBUG] [2014-04-25 15:43:20,241] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1741]
+Adding type registration time -> org.hibernate.type.TimeType@31aea240
+
+[DEBUG] [2014-04-25 15:43:20,241] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1741]
+Adding type registration java.sql.Time -> org.hibernate.type.TimeType@31aea240
+
+[DEBUG] [2014-04-25 15:43:20,241] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1741]
+Adding type registration timestamp -> org.hibernate.type.TimestampType@3b7497ac
+
+[DEBUG] [2014-04-25 15:43:20,241] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1741]
+Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@3b7497ac
+
+[DEBUG] [2014-04-25 15:43:20,241] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1741]
+Adding type registration java.util.Date -> org.hibernate.type.TimestampType@3b7497ac
+
+[DEBUG] [2014-04-25 15:43:20,242] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1742]
+Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@57db4fa7
+
+[DEBUG] [2014-04-25 15:43:20,242] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1742]
+Adding type registration calendar -> org.hibernate.type.CalendarType@3c64db02
+
+[DEBUG] [2014-04-25 15:43:20,242] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1742]
+Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@3c64db02
+
+[DEBUG] [2014-04-25 15:43:20,242] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1742]
+Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@3c64db02
+
+[DEBUG] [2014-04-25 15:43:20,242] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1742]
+Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@7890196c
+
+[DEBUG] [2014-04-25 15:43:20,242] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1742]
+Adding type registration locale -> org.hibernate.type.LocaleType@46837332
+
+[DEBUG] [2014-04-25 15:43:20,242] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1742]
+Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@46837332
+
+[DEBUG] [2014-04-25 15:43:20,242] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1742]
+Adding type registration currency -> org.hibernate.type.CurrencyType@388ab10c
+
+[DEBUG] [2014-04-25 15:43:20,242] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1742]
+Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@388ab10c
+
+[DEBUG] [2014-04-25 15:43:20,242] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1742]
+Adding type registration timezone -> org.hibernate.type.TimeZoneType@510f6874
+
+[DEBUG] [2014-04-25 15:43:20,242] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1742]
+Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@510f6874
+
+[DEBUG] [2014-04-25 15:43:20,242] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1742]
+Adding type registration class -> org.hibernate.type.ClassType@1e5b233e
+
+[DEBUG] [2014-04-25 15:43:20,242] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1742]
+Adding type registration java.lang.Class -> org.hibernate.type.ClassType@1e5b233e
+
+[DEBUG] [2014-04-25 15:43:20,242] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1742]
+Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@451900c6
+
+[DEBUG] [2014-04-25 15:43:20,242] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1742]
+Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@451900c6
+
+[DEBUG] [2014-04-25 15:43:20,242] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1742]
+Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@53dc2b19
+
+[DEBUG] [2014-04-25 15:43:20,242] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1742]
+Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@431d8faa
+
+[DEBUG] [2014-04-25 15:43:20,243] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1743]
+Adding type registration binary -> org.hibernate.type.BinaryType@54bdcfc1
+
+[DEBUG] [2014-04-25 15:43:20,243] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1743]
+Adding type registration byte[] -> org.hibernate.type.BinaryType@54bdcfc1
+
+[DEBUG] [2014-04-25 15:43:20,243] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1743]
+Adding type registration [B -> org.hibernate.type.BinaryType@54bdcfc1
+
+[DEBUG] [2014-04-25 15:43:20,243] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1743]
+Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@416b21e
+
+[DEBUG] [2014-04-25 15:43:20,243] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1743]
+Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@416b21e
+
+[DEBUG] [2014-04-25 15:43:20,243] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1743]
+Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@416b21e
+
+[DEBUG] [2014-04-25 15:43:20,243] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1743]
+Adding type registration image -> org.hibernate.type.ImageType@31efd7b7
+
+[DEBUG] [2014-04-25 15:43:20,243] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1743]
+Adding type registration characters -> org.hibernate.type.CharArrayType@74730024
+
+[DEBUG] [2014-04-25 15:43:20,243] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1743]
+Adding type registration char[] -> org.hibernate.type.CharArrayType@74730024
+
+[DEBUG] [2014-04-25 15:43:20,243] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1743]
+Adding type registration [C -> org.hibernate.type.CharArrayType@74730024
+
+[DEBUG] [2014-04-25 15:43:20,243] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1743]
+Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@518cc3ca
+
+[DEBUG] [2014-04-25 15:43:20,243] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1743]
+Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@518cc3ca
+
+[DEBUG] [2014-04-25 15:43:20,243] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1743]
+Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@518cc3ca
+
+[DEBUG] [2014-04-25 15:43:20,243] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1743]
+Adding type registration text -> org.hibernate.type.TextType@25d415d4
+
+[DEBUG] [2014-04-25 15:43:20,243] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1743]
+Adding type registration blob -> org.hibernate.type.BlobType@43ad48ea
+
+[DEBUG] [2014-04-25 15:43:20,243] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1743]
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@43ad48ea
+
+[DEBUG] [2014-04-25 15:43:20,243] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1743]
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@6d40c31
+
+[DEBUG] [2014-04-25 15:43:20,244] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1744]
+Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@7abe51fc
+
+[DEBUG] [2014-04-25 15:43:20,244] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1744]
+Adding type registration clob -> org.hibernate.type.ClobType@da9f889
+
+[DEBUG] [2014-04-25 15:43:20,244] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1744]
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@da9f889
+
+[DEBUG] [2014-04-25 15:43:20,244] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1744]
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@41705b90
+
+[DEBUG] [2014-04-25 15:43:20,244] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1744]
+Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@375b37ac
+
+[DEBUG] [2014-04-25 15:43:20,244] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1744]
+Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@1f69b08
+
+[DEBUG] [2014-04-25 15:43:20,244] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1744]
+Adding type registration serializable -> org.hibernate.type.SerializableType@15b4fb4c
+
+[DEBUG] [2014-04-25 15:43:20,244] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1744]
+Adding type registration object -> org.hibernate.type.ObjectType@4ad6746e
+
+[DEBUG] [2014-04-25 15:43:20,244] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1744]
+Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4ad6746e
+
+[DEBUG] [2014-04-25 15:43:20,244] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1744]
+Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@34792e81
+
+[DEBUG] [2014-04-25 15:43:20,244] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1744]
+Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@7fdc3210
+
+[DEBUG] [2014-04-25 15:43:20,244] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1744]
+Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@515afa04
+
+[DEBUG] [2014-04-25 15:43:20,244] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1744]
+Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@2bd44656
+
+[DEBUG] [2014-04-25 15:43:20,244] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1744]
+Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@7d55ce94
+
+[DEBUG] [2014-04-25 15:43:20,244] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1744]
+Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@c6d96d5
+
+[DEBUG] [2014-04-25 15:43:20,244] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1744]
+Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@6ec98052
+
+[DEBUG] [2014-04-25 15:43:20,245] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1745]
+Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@6f07c050
+
+[DEBUG] [2014-04-25 15:43:20,245] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1745]
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@4f5412d5
+
+[INFO] [2014-04-25 15:43:20,245] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1745]
+Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@41705b90
+
+[DEBUG] [2014-04-25 15:43:20,245] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1745]
+Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@82a56f
+
+[INFO] [2014-04-25 15:43:20,245] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1745]
+Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@7abe51fc
+
+[DEBUG] [2014-04-25 15:43:20,245] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1745]
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@16e898b9
+
+[INFO] [2014-04-25 15:43:20,245] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1745]
+Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@6d40c31
+
+[DEBUG] [2014-04-25 15:43:20,245] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1745]
+Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@52e743f6
+
+[INFO] [2014-04-25 15:43:20,245] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1745]
+Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@1f69b08
+
+[DEBUG] [2014-04-25 15:43:20,245] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1745]
+Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@18a086a3
+
+[INFO] [2014-04-25 15:43:20,245] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1745]
+Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@375b37ac
+
+[DEBUG] [2014-04-25 15:43:20,245] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1745]
+Adding type registration clob -> org.hibernate.type.ClobType@13b1aac
+
+[INFO] [2014-04-25 15:43:20,245] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1745]
+Type registration [clob] overrides previous : org.hibernate.type.ClobType@da9f889
+
+[DEBUG] [2014-04-25 15:43:20,245] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1745]
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@13b1aac
+
+[INFO] [2014-04-25 15:43:20,245] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1745]
+Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@da9f889
+
+[DEBUG] [2014-04-25 15:43:20,245] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1745]
+Adding type registration blob -> org.hibernate.type.BlobType@5e609547
+
+[INFO] [2014-04-25 15:43:20,246] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1746]
+Type registration [blob] overrides previous : org.hibernate.type.BlobType@43ad48ea
+
+[DEBUG] [2014-04-25 15:43:20,246] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1746]
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@5e609547
+
+[INFO] [2014-04-25 15:43:20,246] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1746]
+Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@43ad48ea
+
+[DEBUG] [2014-04-25 15:43:20,247] [org.hibernate.impl.SessionFactoryImpl] [localhost-startStop-1] [1747]
+Session factory constructed with filter configurations : {}
+
+[DEBUG] [2014-04-25 15:43:20,247] [org.hibernate.impl.SessionFactoryImpl] [localhost-startStop-1] [1747]
+instantiating session factory with properties: {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, catalina.base=C:\Users\thinkpad\git\test\test\target\tomcat, hibernate.connection.url=jdbc:mysql://localhost:3306/afl, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, catalina.useNaming=true, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_45\jre\classes, java.util.logging.config.file=C:\Users\thinkpad\git\test\test\target\tomcat\conf\logging.properties, hibernate.current_session_context_class=org.springframework.orm.hibernate3.SpringSessionContext, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_45-b18, user.name=thinkpad, shared.loader=, guice.disable.misplaced.annotation.check=true, tomcat.util.buf.StringCache.byte.enabled=true, hibernate.session_factory_name=SessionFactory, hibernate.search.autoregister_listeners=false, user.language=zh, java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0_45\jre\bin, classworlds.conf=D:\SourceCode\Java\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2746672649014012767.tmp, java.version=1.7.0_45, java.util.logging.manager=org.apache.juli.ClassLoaderLogManager, user.timezone=Asia/Shanghai, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0_45\jre\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=GBK, file.encoding.pkg=sun.io, package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper., file.separator=\, java.specification.name=Java Platform API Specification, hibernate.format_sql=true, java.class.version=51.0, user.country=CN, java.home=C:\Program Files\Java\jdk1.7.0_45\jre, java.vm.info=mixed mode, os.version=6.1, hibernate.transaction.factory_class=org.springframework.orm.hibernate3.SpringTransactionFactory, path.separator=;, java.vm.version=24.45-b08, hibernate.connection.password=skycloud, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, tomcat.util.scan.DefaultJarScanner.jarsToSkip=bootstrap.jar,commons-daemon.jar,tomcat-juli.jar,annotations-api.jar,el-api.jar,jsp-api.jar,servlet-api.jar,catalina.jar,catalina-ant.jar,catalina-ha.jar,catalina-tribes.jar,jasper.jar,jasper-el.jar,ecj-*.jar,tomcat-api.jar,tomcat-util.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-jni.jar,tomcat-spdy.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-juli-adapters.jar,catalina-jmx-remote.jar,catalina-ws.jar,tomcat-jdbc.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,jstl.jar,geronimo-spec-jaxrpc*.jar,wsdl4j*.jar,ant.jar,ant-junit*.jar,aspectj*.jar,jmx.jar,h2*.jar,hibernate*.jar,httpclient*.jar,jmx-tools.jar,jta*.jar,log4j*.jar,mail*.jar,slf4j*.jar,xercesImpl.jar,xmlParserAPIs.jar,xml-apis.jar,access-bridge-64.jar,dnsns.jar,jaccess.jar,ldapsec.jar,localedata.jar,sunjce_provider.jar,sunmscapi.jar,sunpkcs11.jar,jhall.jar,tools.jar,sunec.jar,zipfs.jar,gnome-java-bridge.jar,pulse-java.jar,apple_provider.jar,AppleScriptEngine.jar,CoreAudio.jar,dns_sd.jar,j3daudio.jar,j3dcore.jar,j3dutils.jar,jai_core.jar,jai_codec.jar,mlibwrapper_jai.jar,MRJToolkit.jar,vecmath.jar,junit.jar,junit-*.jar,ant-launcher.jar, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=root, package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper., user.script=, hibernate.check_nullability=true, java.naming.factory.url.pkgs=org.apache.naming, user.home=C:\Users\thinkpad, org.apache.catalina.startup.ContextConfig.jarsToSkip=, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jdk1.7.0_45\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Program Files\Java\jdk1.7.0_45\jre\bin;D:\program\WinSCP\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.4\;D:\program\TortoiseSVN\bin;D:\program\nodejs\;C:\Program Files\cURL\bin;D:\program;C:\Users\thinkpad\AppData\Roaming\npm;D:\program\Nmap;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, org.apache.catalina.startup.TldConfig.jarsToSkip=, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQLDialect, common.loader=${catalina.base}/lib,${catalina.base}/lib/*.jar,${catalina.home}/lib,${catalina.home}/lib/*.jar, maven.home=C:\Users\thinkpad\git\test\test\EMBEDDED, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -B -Dmaven.test.skip=true tomcat7:run, java.class.path=/D:/program/eclipse/configuration/org.eclipse.osgi/bundles/531/1/.cp/jars/plexus-classworlds-2.4.jar, hibernate.bytecode.use_reflection_optimizer=false, maven.test.skip=true, java.vm.specification.name=Java Virtual Machine Specification, catalina.home=C:\Users\thinkpad\git\test\test\target\tomcat, java.vm.specification.version=1.7, sun.os.patch.level=Service Pack 1, sun.cpu.endian=little, hibernate.connection.provider_class=org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider, java.io.tmpdir=C:\Users\thinkpad\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, server.loader=, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, os.arch=amd64, java.ext.dirs=C:\Program Files\Java\jdk1.7.0_45\jre\lib\ext;C:\windows\Sun\Java\lib\ext, user.dir=C:\Users\thinkpad\git\test\test, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=UTF-8, java.specification.version=1.7, maven.bootclasspath=/D:/program/eclipse/configuration/org.eclipse.osgi/bundles/531/1/.cp/jars/plexus-classworlds-2.4.jar, hibernate.show_sql=false}
+
+[DEBUG] [2014-04-25 15:43:20,259] [org.hibernate.impl.SessionFactoryObjectFactory] [localhost-startStop-1] [1759]
+initializing class SessionFactoryObjectFactory
+
+[DEBUG] [2014-04-25 15:43:20,260] [org.hibernate.impl.SessionFactoryObjectFactory] [localhost-startStop-1] [1760]
+registered: 9ffec86c-a449-4f07-b132-1348b38fba5e (SessionFactory)
+
+[INFO] [2014-04-25 15:43:20,261] [org.hibernate.impl.SessionFactoryObjectFactory] [localhost-startStop-1] [1761]
+Factory name: SessionFactory
+
+[INFO] [2014-04-25 15:43:20,262] [org.hibernate.util.NamingHelper] [localhost-startStop-1] [1762]
+JNDI InitialContext properties:{}
+
+[DEBUG] [2014-04-25 15:43:20,262] [org.hibernate.impl.SessionFactoryImpl] [localhost-startStop-1] [1762]
+Returning a Reference to the SessionFactory
+
+[DEBUG] [2014-04-25 15:43:20,262] [org.hibernate.util.NamingHelper] [localhost-startStop-1] [1762]
+Bound name: SessionFactory
+
+[INFO] [2014-04-25 15:43:20,262] [org.hibernate.impl.SessionFactoryObjectFactory] [localhost-startStop-1] [1762]
+Bound factory to JNDI name: SessionFactory
+
+[DEBUG] [2014-04-25 15:43:20,262] [org.hibernate.impl.SessionFactoryObjectFactory] [localhost-startStop-1] [1762]
+InitialContext did not implement EventContext
+
+[DEBUG] [2014-04-25 15:43:20,262] [org.hibernate.impl.SessionFactoryImpl] [localhost-startStop-1] [1762]
+instantiated session factory
+
+[INFO] [2014-04-25 15:43:20,268] [org.hibernate.tool.hbm2ddl.SchemaUpdate] [localhost-startStop-1] [1768]
+Running hbm2ddl schema update
+
+[INFO] [2014-04-25 15:43:20,268] [org.hibernate.tool.hbm2ddl.SchemaUpdate] [localhost-startStop-1] [1768]
+fetching database metadata
+
+[INFO] [2014-04-25 15:43:20,269] [org.hibernate.tool.hbm2ddl.SchemaUpdate] [localhost-startStop-1] [1769]
+updating schema
+
+[DEBUG] [2014-04-25 15:43:20,270] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1770]
+Processing hbm.xml files
+
+[DEBUG] [2014-04-25 15:43:20,270] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1770]
+Process annotated classes
+
+[DEBUG] [2014-04-25 15:43:20,270] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1770]
+processing fk mappings (*ToOne and JoinedSubclass)
+
+[DEBUG] [2014-04-25 15:43:20,270] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1770]
+processing extends queue
+
+[DEBUG] [2014-04-25 15:43:20,270] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1770]
+processing extends queue
+
+[DEBUG] [2014-04-25 15:43:20,270] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1770]
+processing collection mappings
+
+[DEBUG] [2014-04-25 15:43:20,270] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1770]
+processing native query and ResultSetMapping mappings
+
+[DEBUG] [2014-04-25 15:43:20,270] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1770]
+processing association property references
+
+[DEBUG] [2014-04-25 15:43:20,270] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1770]
+processing foreign key constraints
+
+[DEBUG] [2014-04-25 15:43:20,272] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [1772]
+Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+
+[DEBUG] [2014-04-25 15:43:20,272] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [1772]
+Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+
+[DEBUG] [2014-04-25 15:43:20,272] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [1772]
+Trying to load META-INF/validation.xml for XML based Validator configuration.
+
+[DEBUG] [2014-04-25 15:43:20,273] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [1773]
+No META-INF/validation.xml found. Using annotation based configuration only.
+
+[INFO] [2014-04-25 15:43:20,275] [org.hibernate.tool.hbm2ddl.SchemaUpdate] [localhost-startStop-1] [1775]
+schema update complete
+
+[DEBUG] [2014-04-25 15:43:20,277] [org.hibernate.impl.SessionFactoryImpl] [localhost-startStop-1] [1777]
+Checking 0 named HQL queries
+
+[DEBUG] [2014-04-25 15:43:20,277] [org.hibernate.impl.SessionFactoryImpl] [localhost-startStop-1] [1777]
+Checking 0 named SQL queries
+
+[DEBUG] [2014-04-25 15:51:57,625] [org.jboss.logging] [localhost-startStop-1] [0]
+Logging Provider: org.jboss.logging.Log4jLoggerProvider
+
+[INFO] [2014-04-25 15:51:57,625] [org.hibernate.validator.internal.util.Version] [localhost-startStop-1] [0]
+HV000001: Hibernate Validator 5.0.2.Final
+
+[DEBUG] [2014-04-25 15:51:57,650] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [25]
+Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+
+[DEBUG] [2014-04-25 15:51:57,654] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [29]
+Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+
+[DEBUG] [2014-04-25 15:51:57,658] [org.hibernate.validator.internal.engine.ConfigurationImpl] [localhost-startStop-1] [33]
+Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+
+[DEBUG] [2014-04-25 15:51:57,659] [org.hibernate.validator.internal.engine.ConfigurationImpl] [localhost-startStop-1] [34]
+Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+
+[DEBUG] [2014-04-25 15:51:57,671] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [46]
+Trying to load META-INF/validation.xml for XML based Validator configuration.
+
+[DEBUG] [2014-04-25 15:51:57,683] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [58]
+No META-INF/validation.xml found. Using annotation based configuration only.
+
+[DEBUG] [2014-04-25 15:51:58,618] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [993]
+Adding type registration boolean -> org.hibernate.type.BooleanType@378c3d97
+
+[DEBUG] [2014-04-25 15:51:58,618] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [993]
+Adding type registration boolean -> org.hibernate.type.BooleanType@378c3d97
+
+[DEBUG] [2014-04-25 15:51:58,618] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [993]
+Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@378c3d97
+
+[DEBUG] [2014-04-25 15:51:58,619] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [994]
+Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1ed9b145
+
+[DEBUG] [2014-04-25 15:51:58,621] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [996]
+Adding type registration true_false -> org.hibernate.type.TrueFalseType@2be31eae
+
+[DEBUG] [2014-04-25 15:51:58,622] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [997]
+Adding type registration yes_no -> org.hibernate.type.YesNoType@7b402c4e
+
+[DEBUG] [2014-04-25 15:51:58,624] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [999]
+Adding type registration byte -> org.hibernate.type.ByteType@694dfe47
+
+[DEBUG] [2014-04-25 15:51:58,624] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [999]
+Adding type registration byte -> org.hibernate.type.ByteType@694dfe47
+
+[DEBUG] [2014-04-25 15:51:58,624] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [999]
+Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@694dfe47
+
+[DEBUG] [2014-04-25 15:51:58,625] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1000]
+Adding type registration character -> org.hibernate.type.CharacterType@162ded58
+
+[DEBUG] [2014-04-25 15:51:58,626] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1001]
+Adding type registration char -> org.hibernate.type.CharacterType@162ded58
+
+[DEBUG] [2014-04-25 15:51:58,626] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1001]
+Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@162ded58
+
+[DEBUG] [2014-04-25 15:51:58,629] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1004]
+Adding type registration short -> org.hibernate.type.ShortType@37e51920
+
+[DEBUG] [2014-04-25 15:51:58,629] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1004]
+Adding type registration short -> org.hibernate.type.ShortType@37e51920
+
+[DEBUG] [2014-04-25 15:51:58,629] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1004]
+Adding type registration java.lang.Short -> org.hibernate.type.ShortType@37e51920
+
+[DEBUG] [2014-04-25 15:51:58,630] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1005]
+Adding type registration integer -> org.hibernate.type.IntegerType@22e935e8
+
+[DEBUG] [2014-04-25 15:51:58,630] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1005]
+Adding type registration int -> org.hibernate.type.IntegerType@22e935e8
+
+[DEBUG] [2014-04-25 15:51:58,631] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1006]
+Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@22e935e8
+
+[DEBUG] [2014-04-25 15:51:58,633] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1008]
+Adding type registration long -> org.hibernate.type.LongType@37bf9244
+
+[DEBUG] [2014-04-25 15:51:58,633] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1008]
+Adding type registration long -> org.hibernate.type.LongType@37bf9244
+
+[DEBUG] [2014-04-25 15:51:58,633] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1008]
+Adding type registration java.lang.Long -> org.hibernate.type.LongType@37bf9244
+
+[DEBUG] [2014-04-25 15:51:58,636] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1011]
+Adding type registration float -> org.hibernate.type.FloatType@2e230c34
+
+[DEBUG] [2014-04-25 15:51:58,636] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1011]
+Adding type registration float -> org.hibernate.type.FloatType@2e230c34
+
+[DEBUG] [2014-04-25 15:51:58,636] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1011]
+Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2e230c34
+
+[DEBUG] [2014-04-25 15:51:58,638] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1013]
+Adding type registration double -> org.hibernate.type.DoubleType@124f8f49
+
+[DEBUG] [2014-04-25 15:51:58,638] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1013]
+Adding type registration double -> org.hibernate.type.DoubleType@124f8f49
+
+[DEBUG] [2014-04-25 15:51:58,638] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1013]
+Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@124f8f49
+
+[DEBUG] [2014-04-25 15:51:58,640] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1015]
+Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@1dd42575
+
+[DEBUG] [2014-04-25 15:51:58,641] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1016]
+Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@1dd42575
+
+[DEBUG] [2014-04-25 15:51:58,642] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1017]
+Adding type registration big_integer -> org.hibernate.type.BigIntegerType@392f122b
+
+[DEBUG] [2014-04-25 15:51:58,642] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1017]
+Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@392f122b
+
+[DEBUG] [2014-04-25 15:51:58,643] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1018]
+Adding type registration string -> org.hibernate.type.StringType@13056daa
+
+[DEBUG] [2014-04-25 15:51:58,643] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1018]
+Adding type registration java.lang.String -> org.hibernate.type.StringType@13056daa
+
+[DEBUG] [2014-04-25 15:51:58,645] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1020]
+Adding type registration url -> org.hibernate.type.UrlType@6f9ef18d
+
+[DEBUG] [2014-04-25 15:51:58,645] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1020]
+Adding type registration java.net.URL -> org.hibernate.type.UrlType@6f9ef18d
+
+[DEBUG] [2014-04-25 15:51:58,647] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1022]
+Adding type registration date -> org.hibernate.type.DateType@2660fd4b
+
+[DEBUG] [2014-04-25 15:51:58,647] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1022]
+Adding type registration java.sql.Date -> org.hibernate.type.DateType@2660fd4b
+
+[DEBUG] [2014-04-25 15:51:58,649] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1024]
+Adding type registration time -> org.hibernate.type.TimeType@7a4ff3d8
+
+[DEBUG] [2014-04-25 15:51:58,649] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1024]
+Adding type registration java.sql.Time -> org.hibernate.type.TimeType@7a4ff3d8
+
+[DEBUG] [2014-04-25 15:51:58,651] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1026]
+Adding type registration timestamp -> org.hibernate.type.TimestampType@484f98f2
+
+[DEBUG] [2014-04-25 15:51:58,651] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1026]
+Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@484f98f2
+
+[DEBUG] [2014-04-25 15:51:58,651] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1026]
+Adding type registration java.util.Date -> org.hibernate.type.TimestampType@484f98f2
+
+[DEBUG] [2014-04-25 15:51:58,652] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1027]
+Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@53730081
+
+[DEBUG] [2014-04-25 15:51:58,653] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1028]
+Adding type registration calendar -> org.hibernate.type.CalendarType@4a43dc54
+
+[DEBUG] [2014-04-25 15:51:58,653] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1028]
+Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4a43dc54
+
+[DEBUG] [2014-04-25 15:51:58,653] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1028]
+Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4a43dc54
+
+[DEBUG] [2014-04-25 15:51:58,654] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1029]
+Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@38de7bf0
+
+[DEBUG] [2014-04-25 15:51:58,655] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1030]
+Adding type registration locale -> org.hibernate.type.LocaleType@2e25e990
+
+[DEBUG] [2014-04-25 15:51:58,656] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1031]
+Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@2e25e990
+
+[DEBUG] [2014-04-25 15:51:58,657] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1032]
+Adding type registration currency -> org.hibernate.type.CurrencyType@3ecd010e
+
+[DEBUG] [2014-04-25 15:51:58,657] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1032]
+Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@3ecd010e
+
+[DEBUG] [2014-04-25 15:51:58,658] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1033]
+Adding type registration timezone -> org.hibernate.type.TimeZoneType@500e5e51
+
+[DEBUG] [2014-04-25 15:51:58,658] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1033]
+Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@500e5e51
+
+[DEBUG] [2014-04-25 15:51:58,659] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1034]
+Adding type registration class -> org.hibernate.type.ClassType@4f40995c
+
+[DEBUG] [2014-04-25 15:51:58,659] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1034]
+Adding type registration java.lang.Class -> org.hibernate.type.ClassType@4f40995c
+
+[DEBUG] [2014-04-25 15:51:58,661] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1036]
+Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@21256c5a
+
+[DEBUG] [2014-04-25 15:51:58,662] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1037]
+Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@21256c5a
+
+[DEBUG] [2014-04-25 15:51:58,662] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1037]
+Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@72f31fa2
+
+[DEBUG] [2014-04-25 15:51:58,663] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1038]
+Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@19647f24
+
+[DEBUG] [2014-04-25 15:51:58,665] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1040]
+Adding type registration binary -> org.hibernate.type.BinaryType@261c1951
+
+[DEBUG] [2014-04-25 15:51:58,665] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1040]
+Adding type registration byte[] -> org.hibernate.type.BinaryType@261c1951
+
+[DEBUG] [2014-04-25 15:51:58,665] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1040]
+Adding type registration [B -> org.hibernate.type.BinaryType@261c1951
+
+[DEBUG] [2014-04-25 15:51:58,666] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1041]
+Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@32d8cf89
+
+[DEBUG] [2014-04-25 15:51:58,666] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1041]
+Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@32d8cf89
+
+[DEBUG] [2014-04-25 15:51:58,666] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1041]
+Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@32d8cf89
+
+[DEBUG] [2014-04-25 15:51:58,667] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1042]
+Adding type registration image -> org.hibernate.type.ImageType@25662980
+
+[DEBUG] [2014-04-25 15:51:58,669] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1044]
+Adding type registration characters -> org.hibernate.type.CharArrayType@291c0633
+
+[DEBUG] [2014-04-25 15:51:58,669] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1044]
+Adding type registration char[] -> org.hibernate.type.CharArrayType@291c0633
+
+[DEBUG] [2014-04-25 15:51:58,669] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1044]
+Adding type registration [C -> org.hibernate.type.CharArrayType@291c0633
+
+[DEBUG] [2014-04-25 15:51:58,671] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1046]
+Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@47dd218b
+
+[DEBUG] [2014-04-25 15:51:58,671] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1046]
+Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@47dd218b
+
+[DEBUG] [2014-04-25 15:51:58,671] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1046]
+Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@47dd218b
+
+[DEBUG] [2014-04-25 15:51:58,672] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1047]
+Adding type registration text -> org.hibernate.type.TextType@6af07c8a
+
+[DEBUG] [2014-04-25 15:51:58,680] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1055]
+Adding type registration blob -> org.hibernate.type.BlobType@1444e85a
+
+[DEBUG] [2014-04-25 15:51:58,680] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1055]
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1444e85a
+
+[DEBUG] [2014-04-25 15:51:58,681] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1056]
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@4be423f7
+
+[DEBUG] [2014-04-25 15:51:58,682] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1057]
+Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@65a0596
+
+[DEBUG] [2014-04-25 15:51:58,687] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1062]
+Adding type registration clob -> org.hibernate.type.ClobType@4c6f44a0
+
+[DEBUG] [2014-04-25 15:51:58,687] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1062]
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@4c6f44a0
+
+[DEBUG] [2014-04-25 15:51:58,688] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1063]
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@6844f71
+
+[DEBUG] [2014-04-25 15:51:58,689] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1064]
+Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@61e6d089
+
+[DEBUG] [2014-04-25 15:51:58,689] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1064]
+Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@3a3dcf4d
+
+[DEBUG] [2014-04-25 15:51:58,691] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1066]
+Adding type registration serializable -> org.hibernate.type.SerializableType@1288f074
+
+[DEBUG] [2014-04-25 15:51:58,695] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1070]
+Adding type registration object -> org.hibernate.type.ObjectType@6ba1d1c8
+
+[DEBUG] [2014-04-25 15:51:58,695] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1070]
+Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@6ba1d1c8
+
+[DEBUG] [2014-04-25 15:51:58,695] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1070]
+Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@27ad9523
+
+[DEBUG] [2014-04-25 15:51:58,695] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1070]
+Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@751a412e
+
+[DEBUG] [2014-04-25 15:51:58,695] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1070]
+Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@ead6f12
+
+[DEBUG] [2014-04-25 15:51:58,696] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1071]
+Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1c570e45
+
+[DEBUG] [2014-04-25 15:51:58,696] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1071]
+Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1769e28c
+
+[DEBUG] [2014-04-25 15:51:58,696] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1071]
+Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@28986156
+
+[DEBUG] [2014-04-25 15:51:58,696] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1071]
+Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@2c1e69ec
+
+[DEBUG] [2014-04-25 15:51:58,696] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1071]
+Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@bc1b95
+
+[INFO] [2014-04-25 15:51:58,717] [org.hibernate.annotations.common.Version] [localhost-startStop-1] [1092]
+Hibernate Commons Annotations 3.2.0.Final
+
+[INFO] [2014-04-25 15:51:58,722] [org.hibernate.cfg.Environment] [localhost-startStop-1] [1097]
+Hibernate 3.6.10.Final
+
+[INFO] [2014-04-25 15:51:58,724] [org.hibernate.cfg.Environment] [localhost-startStop-1] [1099]
+hibernate.properties not found
+
+[INFO] [2014-04-25 15:51:58,728] [org.hibernate.cfg.Environment] [localhost-startStop-1] [1103]
+Bytecode provider name : javassist
+
+[INFO] [2014-04-25 15:51:58,733] [org.hibernate.cfg.Environment] [localhost-startStop-1] [1108]
+using JDK 1.4 java.sql.Timestamp handling
+
+[DEBUG] [2014-04-25 15:51:58,780] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1155]
+Registering IdentifierGenerator strategy [uuid2] -> [class org.hibernate.id.UUIDGenerator]
+
+[DEBUG] [2014-04-25 15:51:58,781] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1156]
+Registering IdentifierGenerator strategy [guid] -> [class org.hibernate.id.GUIDGenerator]
+
+[DEBUG] [2014-04-25 15:51:58,783] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1158]
+Registering IdentifierGenerator strategy [uuid] -> [class org.hibernate.id.UUIDHexGenerator]
+
+[DEBUG] [2014-04-25 15:51:58,783] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1158]
+Registering IdentifierGenerator strategy [uuid.hex] -> [class org.hibernate.id.UUIDHexGenerator]
+
+[DEBUG] [2014-04-25 15:51:58,786] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1161]
+Registering IdentifierGenerator strategy [hilo] -> [class org.hibernate.id.TableHiLoGenerator]
+
+[DEBUG] [2014-04-25 15:51:58,786] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1161]
+Registering IdentifierGenerator strategy [assigned] -> [class org.hibernate.id.Assigned]
+
+[DEBUG] [2014-04-25 15:51:58,788] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1163]
+Registering IdentifierGenerator strategy [identity] -> [class org.hibernate.id.IdentityGenerator]
+
+[DEBUG] [2014-04-25 15:51:58,788] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1163]
+Registering IdentifierGenerator strategy [select] -> [class org.hibernate.id.SelectGenerator]
+
+[DEBUG] [2014-04-25 15:51:58,789] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1164]
+Registering IdentifierGenerator strategy [sequence] -> [class org.hibernate.id.SequenceGenerator]
+
+[DEBUG] [2014-04-25 15:51:58,790] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1165]
+Registering IdentifierGenerator strategy [seqhilo] -> [class org.hibernate.id.SequenceHiLoGenerator]
+
+[DEBUG] [2014-04-25 15:51:58,790] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1165]
+Registering IdentifierGenerator strategy [increment] -> [class org.hibernate.id.IncrementGenerator]
+
+[DEBUG] [2014-04-25 15:51:58,791] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1166]
+Registering IdentifierGenerator strategy [foreign] -> [class org.hibernate.id.ForeignGenerator]
+
+[DEBUG] [2014-04-25 15:51:58,792] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1167]
+Registering IdentifierGenerator strategy [sequence-identity] -> [class org.hibernate.id.SequenceIdentityGenerator]
+
+[DEBUG] [2014-04-25 15:51:58,792] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1167]
+Registering IdentifierGenerator strategy [enhanced-sequence] -> [class org.hibernate.id.enhanced.SequenceStyleGenerator]
+
+[DEBUG] [2014-04-25 15:51:58,793] [org.hibernate.id.factory.DefaultIdentifierGeneratorFactory] [localhost-startStop-1] [1168]
+Registering IdentifierGenerator strategy [enhanced-table] -> [class org.hibernate.id.enhanced.TableGenerator]
+
+[INFO] [2014-04-25 15:51:58,796] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1171]
+configuring from url: file:/C:/Users/thinkpad/git/test/test/target/classes/hibernate.cfg.xml
+
+[DEBUG] [2014-04-25 15:51:58,829] [org.hibernate.util.DTDEntityResolver] [localhost-startStop-1] [1204]
+trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+
+[WARN] [2014-04-25 15:51:58,829] [org.hibernate.util.DTDEntityResolver] [localhost-startStop-1] [1204]
+recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+
+[DEBUG] [2014-04-25 15:51:58,829] [org.hibernate.util.DTDEntityResolver] [localhost-startStop-1] [1204]
+attempting to resolve on classpath under org/hibernate/
+
+[DEBUG] [2014-04-25 15:51:58,830] [org.hibernate.util.DTDEntityResolver] [localhost-startStop-1] [1205]
+located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+
+[DEBUG] [2014-04-25 15:51:58,857] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1232]
+hibernate.bytecode.use_reflection_optimizer=false
+
+[DEBUG] [2014-04-25 15:51:58,857] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1232]
+hibernate.check_nullability=true
+
+[DEBUG] [2014-04-25 15:51:58,857] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1232]
+hibernate.connection.driver_class=com.mysql.jdbc.Driver
+
+[DEBUG] [2014-04-25 15:51:58,857] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1232]
+hibernate.connection.password=skycloud
+
+[DEBUG] [2014-04-25 15:51:58,857] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1232]
+hibernate.connection.url=jdbc:mysql://localhost:3306/afl
+
+[DEBUG] [2014-04-25 15:51:58,858] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1233]
+hibernate.connection.username=root
+
+[DEBUG] [2014-04-25 15:51:58,858] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1233]
+hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+[DEBUG] [2014-04-25 15:51:58,858] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1233]
+hibernate.format_sql=true
+
+[DEBUG] [2014-04-25 15:51:58,858] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1233]
+hibernate.search.autoregister_listeners=false
+
+[DEBUG] [2014-04-25 15:51:58,858] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1233]
+hibernate.show_sql=false
+
+[DEBUG] [2014-04-25 15:51:58,858] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1233]
+hibernate.hbm2ddl.auto=update
+
+[INFO] [2014-04-25 15:51:58,858] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1233]
+Configured SessionFactory: SessionFactory
+
+[DEBUG] [2014-04-25 15:51:58,859] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1234]
+properties: {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, catalina.base=C:\Users\thinkpad\git\test\test\target\tomcat, hibernate.connection.url=jdbc:mysql://localhost:3306/afl, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, catalina.useNaming=true, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_45\jre\classes, java.util.logging.config.file=C:\Users\thinkpad\git\test\test\target\tomcat\conf\logging.properties, hibernate.current_session_context_class=org.springframework.orm.hibernate3.SpringSessionContext, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_45-b18, user.name=thinkpad, shared.loader=, guice.disable.misplaced.annotation.check=true, tomcat.util.buf.StringCache.byte.enabled=true, hibernate.session_factory_name=SessionFactory, hibernate.search.autoregister_listeners=false, user.language=zh, java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0_45\jre\bin, classworlds.conf=D:\SourceCode\Java\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6524567217302814217.tmp, java.version=1.7.0_45, java.util.logging.manager=org.apache.juli.ClassLoaderLogManager, user.timezone=Asia/Shanghai, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0_45\jre\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=GBK, file.encoding.pkg=sun.io, package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper., file.separator=\, java.specification.name=Java Platform API Specification, hibernate.format_sql=true, java.class.version=51.0, user.country=CN, java.home=C:\Program Files\Java\jdk1.7.0_45\jre, java.vm.info=mixed mode, os.version=6.1, hibernate.transaction.factory_class=org.springframework.orm.hibernate3.SpringTransactionFactory, path.separator=;, java.vm.version=24.45-b08, hibernate.connection.password=skycloud, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, tomcat.util.scan.DefaultJarScanner.jarsToSkip=bootstrap.jar,commons-daemon.jar,tomcat-juli.jar,annotations-api.jar,el-api.jar,jsp-api.jar,servlet-api.jar,catalina.jar,catalina-ant.jar,catalina-ha.jar,catalina-tribes.jar,jasper.jar,jasper-el.jar,ecj-*.jar,tomcat-api.jar,tomcat-util.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-jni.jar,tomcat-spdy.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-juli-adapters.jar,catalina-jmx-remote.jar,catalina-ws.jar,tomcat-jdbc.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,jstl.jar,geronimo-spec-jaxrpc*.jar,wsdl4j*.jar,ant.jar,ant-junit*.jar,aspectj*.jar,jmx.jar,h2*.jar,hibernate*.jar,httpclient*.jar,jmx-tools.jar,jta*.jar,log4j*.jar,mail*.jar,slf4j*.jar,xercesImpl.jar,xmlParserAPIs.jar,xml-apis.jar,access-bridge-64.jar,dnsns.jar,jaccess.jar,ldapsec.jar,localedata.jar,sunjce_provider.jar,sunmscapi.jar,sunpkcs11.jar,jhall.jar,tools.jar,sunec.jar,zipfs.jar,gnome-java-bridge.jar,pulse-java.jar,apple_provider.jar,AppleScriptEngine.jar,CoreAudio.jar,dns_sd.jar,j3daudio.jar,j3dcore.jar,j3dutils.jar,jai_core.jar,jai_codec.jar,mlibwrapper_jai.jar,MRJToolkit.jar,vecmath.jar,junit.jar,junit-*.jar,ant-launcher.jar, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=root, package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper., user.script=, hibernate.check_nullability=true, java.naming.factory.url.pkgs=org.apache.naming, user.home=C:\Users\thinkpad, org.apache.catalina.startup.ContextConfig.jarsToSkip=, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jdk1.7.0_45\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Program Files\Java\jdk1.7.0_45\jre\bin;D:\program\WinSCP\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.4\;D:\program\TortoiseSVN\bin;D:\program\nodejs\;C:\Program Files\cURL\bin;D:\program;C:\Users\thinkpad\AppData\Roaming\npm;D:\program\Nmap;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, org.apache.catalina.startup.TldConfig.jarsToSkip=, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQLDialect, common.loader=${catalina.base}/lib,${catalina.base}/lib/*.jar,${catalina.home}/lib,${catalina.home}/lib/*.jar, maven.home=C:\Users\thinkpad\git\test\test\EMBEDDED, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -B -Dmaven.test.skip=true tomcat7:run, java.class.path=/D:/program/eclipse/configuration/org.eclipse.osgi/bundles/531/1/.cp/jars/plexus-classworlds-2.4.jar, hibernate.bytecode.use_reflection_optimizer=false, maven.test.skip=true, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, catalina.home=C:\Users\thinkpad\git\test\test\target\tomcat, sun.cpu.endian=little, sun.os.patch.level=Service Pack 1, java.io.tmpdir=C:\Users\thinkpad\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, server.loader=, os.arch=amd64, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.ext.dirs=C:\Program Files\Java\jdk1.7.0_45\jre\lib\ext;C:\windows\Sun\Java\lib\ext, user.dir=C:\Users\thinkpad\git\test\test, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=UTF-8, java.specification.version=1.7, hibernate.show_sql=false, maven.bootclasspath=/D:/program/eclipse/configuration/org.eclipse.osgi/bundles/531/1/.cp/jars/plexus-classworlds-2.4.jar}
+
+[DEBUG] [2014-04-25 15:51:58,892] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1267]
+Processing hbm.xml files
+
+[DEBUG] [2014-04-25 15:51:58,892] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1267]
+Process annotated classes
+
+[DEBUG] [2014-04-25 15:51:58,893] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1268]
+processing fk mappings (*ToOne and JoinedSubclass)
+
+[DEBUG] [2014-04-25 15:51:58,894] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1269]
+processing extends queue
+
+[DEBUG] [2014-04-25 15:51:58,894] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1269]
+processing extends queue
+
+[DEBUG] [2014-04-25 15:51:58,894] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1269]
+processing collection mappings
+
+[DEBUG] [2014-04-25 15:51:58,894] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1269]
+processing native query and ResultSetMapping mappings
+
+[DEBUG] [2014-04-25 15:51:58,894] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1269]
+processing association property references
+
+[DEBUG] [2014-04-25 15:51:58,894] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1269]
+processing foreign key constraints
+
+[INFO] [2014-04-25 15:51:58,900] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1275]
+Hibernate Validator not found: ignoring
+
+[DEBUG] [2014-04-25 15:51:58,903] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [1278]
+Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+
+[DEBUG] [2014-04-25 15:51:58,903] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [1278]
+Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+
+[DEBUG] [2014-04-25 15:51:58,903] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [1278]
+Trying to load META-INF/validation.xml for XML based Validator configuration.
+
+[DEBUG] [2014-04-25 15:51:58,904] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [1279]
+No META-INF/validation.xml found. Using annotation based configuration only.
+
+[DEBUG] [2014-04-25 15:51:58,906] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1281]
+Preparing to build session factory with filters : {}
+
+[DEBUG] [2014-04-25 15:51:58,906] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1281]
+Processing hbm.xml files
+
+[DEBUG] [2014-04-25 15:51:58,906] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1281]
+Process annotated classes
+
+[DEBUG] [2014-04-25 15:51:58,906] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1281]
+processing fk mappings (*ToOne and JoinedSubclass)
+
+[DEBUG] [2014-04-25 15:51:58,906] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1281]
+processing extends queue
+
+[DEBUG] [2014-04-25 15:51:58,906] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1281]
+processing extends queue
+
+[DEBUG] [2014-04-25 15:51:58,906] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1281]
+processing collection mappings
+
+[DEBUG] [2014-04-25 15:51:58,906] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1281]
+processing native query and ResultSetMapping mappings
+
+[DEBUG] [2014-04-25 15:51:58,906] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1281]
+processing association property references
+
+[DEBUG] [2014-04-25 15:51:58,906] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1281]
+processing foreign key constraints
+
+[DEBUG] [2014-04-25 15:51:58,908] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [1283]
+Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+
+[DEBUG] [2014-04-25 15:51:58,908] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [1283]
+Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+
+[DEBUG] [2014-04-25 15:51:58,908] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [1283]
+Trying to load META-INF/validation.xml for XML based Validator configuration.
+
+[DEBUG] [2014-04-25 15:51:58,910] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [1285]
+No META-INF/validation.xml found. Using annotation based configuration only.
+
+[DEBUG] [2014-04-25 15:51:58,912] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1287]
+Legacy Validator not present in classpath, ignoring event listener registration
+
+[DEBUG] [2014-04-25 15:51:58,912] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [1287]
+Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+
+[DEBUG] [2014-04-25 15:51:58,912] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [1287]
+Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+
+[DEBUG] [2014-04-25 15:51:58,912] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [1287]
+Trying to load META-INF/validation.xml for XML based Validator configuration.
+
+[DEBUG] [2014-04-25 15:51:58,914] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [1289]
+No META-INF/validation.xml found. Using annotation based configuration only.
+
+[INFO] [2014-04-25 15:51:58,920] [org.hibernate.cfg.search.HibernateSearchEventListenerRegister] [localhost-startStop-1] [1295]
+Property hibernate.search.autoregister_listeners is set to false. No attempt will be made to register Hibernate Search event listeners.
+
+[INFO] [2014-04-25 15:51:58,922] [org.hibernate.connection.ConnectionProviderFactory] [localhost-startStop-1] [1297]
+Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+
+[INFO] [2014-04-25 15:51:59,248] [org.hibernate.dialect.Dialect] [localhost-startStop-1] [1623]
+Using dialect: org.hibernate.dialect.MySQLDialect
+
+[INFO] [2014-04-25 15:51:59,259] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1634]
+Database ->
+       name : MySQL
+    version : 5.6.14-log
+      major : 5
+      minor : 6
+
+[INFO] [2014-04-25 15:51:59,260] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1635]
+Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.28 ( Revision: alexander.soklakov@oracle.com-20131125092425-yvejy3xvci77ru3k )
+      major : 5
+      minor : 1
+
+[INFO] [2014-04-25 15:51:59,264] [org.hibernate.transaction.TransactionFactoryFactory] [localhost-startStop-1] [1639]
+Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+
+[INFO] [2014-04-25 15:51:59,265] [org.hibernate.transaction.TransactionManagerLookupFactory] [localhost-startStop-1] [1640]
+No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+
+[INFO] [2014-04-25 15:51:59,265] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1640]
+Automatic flush during beforeCompletion(): disabled
+
+[INFO] [2014-04-25 15:51:59,265] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1640]
+Automatic session close at end of transaction: disabled
+
+[INFO] [2014-04-25 15:51:59,265] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1640]
+JDBC batch size: 15
+
+[INFO] [2014-04-25 15:51:59,265] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1640]
+JDBC batch updates for versioned data: disabled
+
+[INFO] [2014-04-25 15:51:59,266] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1641]
+Scrollable result sets: enabled
+
+[DEBUG] [2014-04-25 15:51:59,266] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1641]
+Wrap result sets: disabled
+
+[INFO] [2014-04-25 15:51:59,266] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1641]
+JDBC3 getGeneratedKeys(): enabled
+
+[INFO] [2014-04-25 15:51:59,266] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1641]
+Connection release mode: auto
+
+[INFO] [2014-04-25 15:51:59,267] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1642]
+Maximum outer join fetch depth: 2
+
+[INFO] [2014-04-25 15:51:59,267] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1642]
+Default batch fetch size: 1
+
+[INFO] [2014-04-25 15:51:59,267] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1642]
+Generate SQL with comments: disabled
+
+[INFO] [2014-04-25 15:51:59,267] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1642]
+Order SQL updates by primary key: disabled
+
+[INFO] [2014-04-25 15:51:59,267] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1642]
+Order SQL inserts for batching: disabled
+
+[INFO] [2014-04-25 15:51:59,267] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1642]
+Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+
+[INFO] [2014-04-25 15:51:59,269] [org.hibernate.hql.ast.ASTQueryTranslatorFactory] [localhost-startStop-1] [1644]
+Using ASTQueryTranslatorFactory
+
+[INFO] [2014-04-25 15:51:59,269] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1644]
+Query language substitutions: {}
+
+[INFO] [2014-04-25 15:51:59,269] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1644]
+JPA-QL strict compliance: disabled
+
+[INFO] [2014-04-25 15:51:59,269] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1644]
+Second-level cache: enabled
+
+[INFO] [2014-04-25 15:51:59,270] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1645]
+Query cache: disabled
+
+[INFO] [2014-04-25 15:51:59,270] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1645]
+Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+
+[INFO] [2014-04-25 15:51:59,271] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1646]
+Optimize cache for minimal puts: disabled
+
+[INFO] [2014-04-25 15:51:59,271] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1646]
+Structured second-level cache entries: disabled
+
+[INFO] [2014-04-25 15:51:59,275] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1650]
+Statistics: disabled
+
+[INFO] [2014-04-25 15:51:59,275] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1650]
+Deleted entity synthetic identifier rollback: disabled
+
+[INFO] [2014-04-25 15:51:59,276] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1651]
+Default entity-mode: pojo
+
+[INFO] [2014-04-25 15:51:59,276] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1651]
+Named query checking : enabled
+
+[INFO] [2014-04-25 15:51:59,276] [org.hibernate.cfg.SettingsFactory] [localhost-startStop-1] [1651]
+Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+
+[INFO] [2014-04-25 15:51:59,294] [org.hibernate.impl.SessionFactoryImpl] [localhost-startStop-1] [1669]
+building session factory
+
+[DEBUG] [2014-04-25 15:51:59,298] [org.hibernate.impl.SessionFactoryImpl] [localhost-startStop-1] [1673]
+Statistics initialized [enabled=false]}
+
+[DEBUG] [2014-04-25 15:51:59,300] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1675]
+Adding type registration boolean -> org.hibernate.type.BooleanType@378c3d97
+
+[DEBUG] [2014-04-25 15:51:59,300] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1675]
+Adding type registration boolean -> org.hibernate.type.BooleanType@378c3d97
+
+[DEBUG] [2014-04-25 15:51:59,300] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1675]
+Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@378c3d97
+
+[DEBUG] [2014-04-25 15:51:59,300] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1675]
+Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@1ed9b145
+
+[DEBUG] [2014-04-25 15:51:59,300] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1675]
+Adding type registration true_false -> org.hibernate.type.TrueFalseType@2be31eae
+
+[DEBUG] [2014-04-25 15:51:59,300] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1675]
+Adding type registration yes_no -> org.hibernate.type.YesNoType@7b402c4e
+
+[DEBUG] [2014-04-25 15:51:59,300] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1675]
+Adding type registration byte -> org.hibernate.type.ByteType@694dfe47
+
+[DEBUG] [2014-04-25 15:51:59,300] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1675]
+Adding type registration byte -> org.hibernate.type.ByteType@694dfe47
+
+[DEBUG] [2014-04-25 15:51:59,301] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1676]
+Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@694dfe47
+
+[DEBUG] [2014-04-25 15:51:59,301] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1676]
+Adding type registration character -> org.hibernate.type.CharacterType@162ded58
+
+[DEBUG] [2014-04-25 15:51:59,301] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1676]
+Adding type registration char -> org.hibernate.type.CharacterType@162ded58
+
+[DEBUG] [2014-04-25 15:51:59,301] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1676]
+Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@162ded58
+
+[DEBUG] [2014-04-25 15:51:59,301] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1676]
+Adding type registration short -> org.hibernate.type.ShortType@37e51920
+
+[DEBUG] [2014-04-25 15:51:59,301] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1676]
+Adding type registration short -> org.hibernate.type.ShortType@37e51920
+
+[DEBUG] [2014-04-25 15:51:59,301] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1676]
+Adding type registration java.lang.Short -> org.hibernate.type.ShortType@37e51920
+
+[DEBUG] [2014-04-25 15:51:59,301] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1676]
+Adding type registration integer -> org.hibernate.type.IntegerType@22e935e8
+
+[DEBUG] [2014-04-25 15:51:59,301] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1676]
+Adding type registration int -> org.hibernate.type.IntegerType@22e935e8
+
+[DEBUG] [2014-04-25 15:51:59,301] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1676]
+Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@22e935e8
+
+[DEBUG] [2014-04-25 15:51:59,301] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1676]
+Adding type registration long -> org.hibernate.type.LongType@37bf9244
+
+[DEBUG] [2014-04-25 15:51:59,301] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1676]
+Adding type registration long -> org.hibernate.type.LongType@37bf9244
+
+[DEBUG] [2014-04-25 15:51:59,301] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1676]
+Adding type registration java.lang.Long -> org.hibernate.type.LongType@37bf9244
+
+[DEBUG] [2014-04-25 15:51:59,301] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1676]
+Adding type registration float -> org.hibernate.type.FloatType@2e230c34
+
+[DEBUG] [2014-04-25 15:51:59,301] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1676]
+Adding type registration float -> org.hibernate.type.FloatType@2e230c34
+
+[DEBUG] [2014-04-25 15:51:59,301] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1676]
+Adding type registration java.lang.Float -> org.hibernate.type.FloatType@2e230c34
+
+[DEBUG] [2014-04-25 15:51:59,302] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1677]
+Adding type registration double -> org.hibernate.type.DoubleType@124f8f49
+
+[DEBUG] [2014-04-25 15:51:59,302] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1677]
+Adding type registration double -> org.hibernate.type.DoubleType@124f8f49
+
+[DEBUG] [2014-04-25 15:51:59,302] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1677]
+Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@124f8f49
+
+[DEBUG] [2014-04-25 15:51:59,302] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1677]
+Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@1dd42575
+
+[DEBUG] [2014-04-25 15:51:59,302] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1677]
+Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@1dd42575
+
+[DEBUG] [2014-04-25 15:51:59,302] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1677]
+Adding type registration big_integer -> org.hibernate.type.BigIntegerType@392f122b
+
+[DEBUG] [2014-04-25 15:51:59,302] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1677]
+Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@392f122b
+
+[DEBUG] [2014-04-25 15:51:59,302] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1677]
+Adding type registration string -> org.hibernate.type.StringType@13056daa
+
+[DEBUG] [2014-04-25 15:51:59,302] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1677]
+Adding type registration java.lang.String -> org.hibernate.type.StringType@13056daa
+
+[DEBUG] [2014-04-25 15:51:59,302] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1677]
+Adding type registration url -> org.hibernate.type.UrlType@6f9ef18d
+
+[DEBUG] [2014-04-25 15:51:59,302] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1677]
+Adding type registration java.net.URL -> org.hibernate.type.UrlType@6f9ef18d
+
+[DEBUG] [2014-04-25 15:51:59,302] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1677]
+Adding type registration date -> org.hibernate.type.DateType@2660fd4b
+
+[DEBUG] [2014-04-25 15:51:59,302] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1677]
+Adding type registration java.sql.Date -> org.hibernate.type.DateType@2660fd4b
+
+[DEBUG] [2014-04-25 15:51:59,302] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1677]
+Adding type registration time -> org.hibernate.type.TimeType@7a4ff3d8
+
+[DEBUG] [2014-04-25 15:51:59,302] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1677]
+Adding type registration java.sql.Time -> org.hibernate.type.TimeType@7a4ff3d8
+
+[DEBUG] [2014-04-25 15:51:59,302] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1677]
+Adding type registration timestamp -> org.hibernate.type.TimestampType@484f98f2
+
+[DEBUG] [2014-04-25 15:51:59,302] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1677]
+Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@484f98f2
+
+[DEBUG] [2014-04-25 15:51:59,303] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1678]
+Adding type registration java.util.Date -> org.hibernate.type.TimestampType@484f98f2
+
+[DEBUG] [2014-04-25 15:51:59,303] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1678]
+Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@53730081
+
+[DEBUG] [2014-04-25 15:51:59,303] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1678]
+Adding type registration calendar -> org.hibernate.type.CalendarType@4a43dc54
+
+[DEBUG] [2014-04-25 15:51:59,303] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1678]
+Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4a43dc54
+
+[DEBUG] [2014-04-25 15:51:59,303] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1678]
+Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4a43dc54
+
+[DEBUG] [2014-04-25 15:51:59,303] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1678]
+Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@38de7bf0
+
+[DEBUG] [2014-04-25 15:51:59,303] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1678]
+Adding type registration locale -> org.hibernate.type.LocaleType@2e25e990
+
+[DEBUG] [2014-04-25 15:51:59,303] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1678]
+Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@2e25e990
+
+[DEBUG] [2014-04-25 15:51:59,303] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1678]
+Adding type registration currency -> org.hibernate.type.CurrencyType@3ecd010e
+
+[DEBUG] [2014-04-25 15:51:59,303] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1678]
+Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@3ecd010e
+
+[DEBUG] [2014-04-25 15:51:59,303] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1678]
+Adding type registration timezone -> org.hibernate.type.TimeZoneType@500e5e51
+
+[DEBUG] [2014-04-25 15:51:59,303] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1678]
+Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@500e5e51
+
+[DEBUG] [2014-04-25 15:51:59,303] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1678]
+Adding type registration class -> org.hibernate.type.ClassType@4f40995c
+
+[DEBUG] [2014-04-25 15:51:59,303] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1678]
+Adding type registration java.lang.Class -> org.hibernate.type.ClassType@4f40995c
+
+[DEBUG] [2014-04-25 15:51:59,303] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1678]
+Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@21256c5a
+
+[DEBUG] [2014-04-25 15:51:59,303] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1678]
+Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@21256c5a
+
+[DEBUG] [2014-04-25 15:51:59,303] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1678]
+Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@72f31fa2
+
+[DEBUG] [2014-04-25 15:51:59,304] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1679]
+Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@19647f24
+
+[DEBUG] [2014-04-25 15:51:59,304] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1679]
+Adding type registration binary -> org.hibernate.type.BinaryType@261c1951
+
+[DEBUG] [2014-04-25 15:51:59,304] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1679]
+Adding type registration byte[] -> org.hibernate.type.BinaryType@261c1951
+
+[DEBUG] [2014-04-25 15:51:59,304] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1679]
+Adding type registration [B -> org.hibernate.type.BinaryType@261c1951
+
+[DEBUG] [2014-04-25 15:51:59,304] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1679]
+Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@32d8cf89
+
+[DEBUG] [2014-04-25 15:51:59,304] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1679]
+Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@32d8cf89
+
+[DEBUG] [2014-04-25 15:51:59,304] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1679]
+Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@32d8cf89
+
+[DEBUG] [2014-04-25 15:51:59,304] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1679]
+Adding type registration image -> org.hibernate.type.ImageType@25662980
+
+[DEBUG] [2014-04-25 15:51:59,304] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1679]
+Adding type registration characters -> org.hibernate.type.CharArrayType@291c0633
+
+[DEBUG] [2014-04-25 15:51:59,304] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1679]
+Adding type registration char[] -> org.hibernate.type.CharArrayType@291c0633
+
+[DEBUG] [2014-04-25 15:51:59,304] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1679]
+Adding type registration [C -> org.hibernate.type.CharArrayType@291c0633
+
+[DEBUG] [2014-04-25 15:51:59,304] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1679]
+Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@47dd218b
+
+[DEBUG] [2014-04-25 15:51:59,304] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1679]
+Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@47dd218b
+
+[DEBUG] [2014-04-25 15:51:59,304] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1679]
+Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@47dd218b
+
+[DEBUG] [2014-04-25 15:51:59,304] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1679]
+Adding type registration text -> org.hibernate.type.TextType@6af07c8a
+
+[DEBUG] [2014-04-25 15:51:59,305] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1680]
+Adding type registration blob -> org.hibernate.type.BlobType@1444e85a
+
+[DEBUG] [2014-04-25 15:51:59,305] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1680]
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1444e85a
+
+[DEBUG] [2014-04-25 15:51:59,305] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1680]
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@4be423f7
+
+[DEBUG] [2014-04-25 15:51:59,305] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1680]
+Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@65a0596
+
+[DEBUG] [2014-04-25 15:51:59,305] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1680]
+Adding type registration clob -> org.hibernate.type.ClobType@4c6f44a0
+
+[DEBUG] [2014-04-25 15:51:59,305] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1680]
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@4c6f44a0
+
+[DEBUG] [2014-04-25 15:51:59,305] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1680]
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@6844f71
+
+[DEBUG] [2014-04-25 15:51:59,305] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1680]
+Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@61e6d089
+
+[DEBUG] [2014-04-25 15:51:59,305] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1680]
+Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@3a3dcf4d
+
+[DEBUG] [2014-04-25 15:51:59,305] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1680]
+Adding type registration serializable -> org.hibernate.type.SerializableType@1288f074
+
+[DEBUG] [2014-04-25 15:51:59,305] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1680]
+Adding type registration object -> org.hibernate.type.ObjectType@6ba1d1c8
+
+[DEBUG] [2014-04-25 15:51:59,305] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1680]
+Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@6ba1d1c8
+
+[DEBUG] [2014-04-25 15:51:59,305] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1680]
+Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@9aab18a
+
+[DEBUG] [2014-04-25 15:51:59,305] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1680]
+Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@256ddffb
+
+[DEBUG] [2014-04-25 15:51:59,305] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1680]
+Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@508beaef
+
+[DEBUG] [2014-04-25 15:51:59,305] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1680]
+Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@11ed1a39
+
+[DEBUG] [2014-04-25 15:51:59,305] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1680]
+Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@65549d60
+
+[DEBUG] [2014-04-25 15:51:59,306] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1681]
+Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@16283d99
+
+[DEBUG] [2014-04-25 15:51:59,306] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1681]
+Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@2be4132c
+
+[DEBUG] [2014-04-25 15:51:59,306] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1681]
+Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@aa6c437
+
+[DEBUG] [2014-04-25 15:51:59,306] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1681]
+Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@347d19c
+
+[INFO] [2014-04-25 15:51:59,306] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1681]
+Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@61e6d089
+
+[DEBUG] [2014-04-25 15:51:59,306] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1681]
+Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@2ab68416
+
+[INFO] [2014-04-25 15:51:59,306] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1681]
+Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@4be423f7
+
+[DEBUG] [2014-04-25 15:51:59,306] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1681]
+Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@3499d642
+
+[INFO] [2014-04-25 15:51:59,306] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1681]
+Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@65a0596
+
+[DEBUG] [2014-04-25 15:51:59,306] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1681]
+Adding type registration clob -> org.hibernate.type.ClobType@5fc1a208
+
+[INFO] [2014-04-25 15:51:59,306] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1681]
+Type registration [clob] overrides previous : org.hibernate.type.ClobType@4c6f44a0
+
+[DEBUG] [2014-04-25 15:51:59,306] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1681]
+Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@5fc1a208
+
+[INFO] [2014-04-25 15:51:59,306] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1681]
+Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@4c6f44a0
+
+[DEBUG] [2014-04-25 15:51:59,306] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1681]
+Adding type registration blob -> org.hibernate.type.BlobType@3800875b
+
+[INFO] [2014-04-25 15:51:59,306] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1681]
+Type registration [blob] overrides previous : org.hibernate.type.BlobType@1444e85a
+
+[DEBUG] [2014-04-25 15:51:59,306] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1681]
+Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@3800875b
+
+[INFO] [2014-04-25 15:51:59,307] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1682]
+Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1444e85a
+
+[DEBUG] [2014-04-25 15:51:59,307] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1682]
+Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@60125a72
+
+[INFO] [2014-04-25 15:51:59,307] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1682]
+Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@3a3dcf4d
+
+[DEBUG] [2014-04-25 15:51:59,307] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1682]
+Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@2174ec55
+
+[INFO] [2014-04-25 15:51:59,307] [org.hibernate.type.BasicTypeRegistry] [localhost-startStop-1] [1682]
+Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@6844f71
+
+[DEBUG] [2014-04-25 15:51:59,308] [org.hibernate.impl.SessionFactoryImpl] [localhost-startStop-1] [1683]
+Session factory constructed with filter configurations : {}
+
+[DEBUG] [2014-04-25 15:51:59,308] [org.hibernate.impl.SessionFactoryImpl] [localhost-startStop-1] [1683]
+instantiating session factory with properties: {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, catalina.base=C:\Users\thinkpad\git\test\test\target\tomcat, hibernate.connection.url=jdbc:mysql://localhost:3306/afl, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, catalina.useNaming=true, os.name=Windows 7, sun.boot.class.path=C:\Program Files\Java\jdk1.7.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_45\jre\classes, java.util.logging.config.file=C:\Users\thinkpad\git\test\test\target\tomcat\conf\logging.properties, hibernate.current_session_context_class=org.springframework.orm.hibernate3.SpringSessionContext, sun.desktop=windows, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_45-b18, user.name=thinkpad, shared.loader=, guice.disable.misplaced.annotation.check=true, tomcat.util.buf.StringCache.byte.enabled=true, hibernate.session_factory_name=SessionFactory, hibernate.search.autoregister_listeners=false, user.language=zh, java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory, sun.boot.library.path=C:\Program Files\Java\jdk1.7.0_45\jre\bin, classworlds.conf=D:\SourceCode\Java\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6524567217302814217.tmp, java.version=1.7.0_45, java.util.logging.manager=org.apache.juli.ClassLoaderLogManager, user.timezone=Asia/Shanghai, sun.arch.data.model=64, java.endorsed.dirs=C:\Program Files\Java\jdk1.7.0_45\jre\lib\endorsed, sun.cpu.isalist=amd64, sun.jnu.encoding=GBK, file.encoding.pkg=sun.io, package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper., file.separator=\, java.specification.name=Java Platform API Specification, hibernate.format_sql=true, java.class.version=51.0, user.country=CN, java.home=C:\Program Files\Java\jdk1.7.0_45\jre, java.vm.info=mixed mode, os.version=6.1, hibernate.transaction.factory_class=org.springframework.orm.hibernate3.SpringTransactionFactory, path.separator=;, java.vm.version=24.45-b08, hibernate.connection.password=skycloud, user.variant=, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.io.unicode.encoding=UnicodeLittle, tomcat.util.scan.DefaultJarScanner.jarsToSkip=bootstrap.jar,commons-daemon.jar,tomcat-juli.jar,annotations-api.jar,el-api.jar,jsp-api.jar,servlet-api.jar,catalina.jar,catalina-ant.jar,catalina-ha.jar,catalina-tribes.jar,jasper.jar,jasper-el.jar,ecj-*.jar,tomcat-api.jar,tomcat-util.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-jni.jar,tomcat-spdy.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-juli-adapters.jar,catalina-jmx-remote.jar,catalina-ws.jar,tomcat-jdbc.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,jstl.jar,geronimo-spec-jaxrpc*.jar,wsdl4j*.jar,ant.jar,ant-junit*.jar,aspectj*.jar,jmx.jar,h2*.jar,hibernate*.jar,httpclient*.jar,jmx-tools.jar,jta*.jar,log4j*.jar,mail*.jar,slf4j*.jar,xercesImpl.jar,xmlParserAPIs.jar,xml-apis.jar,access-bridge-64.jar,dnsns.jar,jaccess.jar,ldapsec.jar,localedata.jar,sunjce_provider.jar,sunmscapi.jar,sunpkcs11.jar,jhall.jar,tools.jar,sunec.jar,zipfs.jar,gnome-java-bridge.jar,pulse-java.jar,apple_provider.jar,AppleScriptEngine.jar,CoreAudio.jar,dns_sd.jar,j3daudio.jar,j3dcore.jar,j3dutils.jar,jai_core.jar,jai_codec.jar,mlibwrapper_jai.jar,MRJToolkit.jar,vecmath.jar,junit.jar,junit-*.jar,ant-launcher.jar, awt.toolkit=sun.awt.windows.WToolkit, hibernate.connection.username=root, package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper., user.script=, hibernate.check_nullability=true, java.naming.factory.url.pkgs=org.apache.naming, user.home=C:\Users\thinkpad, org.apache.catalina.startup.ContextConfig.jarsToSkip=, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=C:\Program Files\Java\jdk1.7.0_45\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Program Files\Java\jdk1.7.0_45\jre\bin;D:\program\WinSCP\;C:\Program Files (x86)\MySQL\MySQL Utilities 1.3.4\;D:\program\TortoiseSVN\bin;D:\program\nodejs\;C:\Program Files\cURL\bin;D:\program;C:\Users\thinkpad\AppData\Roaming\npm;D:\program\Nmap;., java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, org.apache.catalina.startup.TldConfig.jarsToSkip=, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQLDialect, common.loader=${catalina.base}/lib,${catalina.base}/lib/*.jar,${catalina.home}/lib,${catalina.home}/lib/*.jar, maven.home=C:\Users\thinkpad\git\test\test\EMBEDDED, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -B -Dmaven.test.skip=true tomcat7:run, java.class.path=/D:/program/eclipse/configuration/org.eclipse.osgi/bundles/531/1/.cp/jars/plexus-classworlds-2.4.jar, hibernate.bytecode.use_reflection_optimizer=false, maven.test.skip=true, java.vm.specification.name=Java Virtual Machine Specification, catalina.home=C:\Users\thinkpad\git\test\test\target\tomcat, java.vm.specification.version=1.7, sun.os.patch.level=Service Pack 1, sun.cpu.endian=little, hibernate.connection.provider_class=org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider, java.io.tmpdir=C:\Users\thinkpad\AppData\Local\Temp\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, server.loader=, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, os.arch=amd64, java.ext.dirs=C:\Program Files\Java\jdk1.7.0_45\jre\lib\ext;C:\windows\Sun\Java\lib\ext, user.dir=C:\Users\thinkpad\git\test\test, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding=UTF-8, java.specification.version=1.7, maven.bootclasspath=/D:/program/eclipse/configuration/org.eclipse.osgi/bundles/531/1/.cp/jars/plexus-classworlds-2.4.jar, hibernate.show_sql=false}
+
+[DEBUG] [2014-04-25 15:51:59,320] [org.hibernate.impl.SessionFactoryObjectFactory] [localhost-startStop-1] [1695]
+initializing class SessionFactoryObjectFactory
+
+[DEBUG] [2014-04-25 15:51:59,321] [org.hibernate.impl.SessionFactoryObjectFactory] [localhost-startStop-1] [1696]
+registered: a40228ff-b099-471d-b274-655aab14bb36 (SessionFactory)
+
+[INFO] [2014-04-25 15:51:59,321] [org.hibernate.impl.SessionFactoryObjectFactory] [localhost-startStop-1] [1696]
+Factory name: SessionFactory
+
+[INFO] [2014-04-25 15:51:59,323] [org.hibernate.util.NamingHelper] [localhost-startStop-1] [1698]
+JNDI InitialContext properties:{}
+
+[DEBUG] [2014-04-25 15:51:59,323] [org.hibernate.impl.SessionFactoryImpl] [localhost-startStop-1] [1698]
+Returning a Reference to the SessionFactory
+
+[DEBUG] [2014-04-25 15:51:59,323] [org.hibernate.util.NamingHelper] [localhost-startStop-1] [1698]
+Bound name: SessionFactory
+
+[INFO] [2014-04-25 15:51:59,323] [org.hibernate.impl.SessionFactoryObjectFactory] [localhost-startStop-1] [1698]
+Bound factory to JNDI name: SessionFactory
+
+[DEBUG] [2014-04-25 15:51:59,323] [org.hibernate.impl.SessionFactoryObjectFactory] [localhost-startStop-1] [1698]
+InitialContext did not implement EventContext
+
+[DEBUG] [2014-04-25 15:51:59,323] [org.hibernate.impl.SessionFactoryImpl] [localhost-startStop-1] [1698]
+instantiated session factory
+
+[INFO] [2014-04-25 15:51:59,328] [org.hibernate.tool.hbm2ddl.SchemaUpdate] [localhost-startStop-1] [1703]
+Running hbm2ddl schema update
+
+[INFO] [2014-04-25 15:51:59,328] [org.hibernate.tool.hbm2ddl.SchemaUpdate] [localhost-startStop-1] [1703]
+fetching database metadata
+
+[INFO] [2014-04-25 15:51:59,330] [org.hibernate.tool.hbm2ddl.SchemaUpdate] [localhost-startStop-1] [1705]
+updating schema
+
+[DEBUG] [2014-04-25 15:51:59,330] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1705]
+Processing hbm.xml files
+
+[DEBUG] [2014-04-25 15:51:59,330] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1705]
+Process annotated classes
+
+[DEBUG] [2014-04-25 15:51:59,330] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1705]
+processing fk mappings (*ToOne and JoinedSubclass)
+
+[DEBUG] [2014-04-25 15:51:59,330] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1705]
+processing extends queue
+
+[DEBUG] [2014-04-25 15:51:59,330] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1705]
+processing extends queue
+
+[DEBUG] [2014-04-25 15:51:59,330] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1705]
+processing collection mappings
+
+[DEBUG] [2014-04-25 15:51:59,330] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1705]
+processing native query and ResultSetMapping mappings
+
+[DEBUG] [2014-04-25 15:51:59,331] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1706]
+processing association property references
+
+[DEBUG] [2014-04-25 15:51:59,331] [org.hibernate.cfg.Configuration] [localhost-startStop-1] [1706]
+processing foreign key constraints
+
+[DEBUG] [2014-04-25 15:51:59,333] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [1708]
+Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+
+[DEBUG] [2014-04-25 15:51:59,333] [org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver] [localhost-startStop-1] [1708]
+Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+
+[DEBUG] [2014-04-25 15:51:59,333] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [1708]
+Trying to load META-INF/validation.xml for XML based Validator configuration.
+
+[DEBUG] [2014-04-25 15:51:59,334] [org.hibernate.validator.internal.xml.ValidationXmlParser] [localhost-startStop-1] [1709]
+No META-INF/validation.xml found. Using annotation based configuration only.
+
+[INFO] [2014-04-25 15:51:59,336] [org.hibernate.tool.hbm2ddl.SchemaUpdate] [localhost-startStop-1] [1711]
+schema update complete
+
+[DEBUG] [2014-04-25 15:51:59,339] [org.hibernate.impl.SessionFactoryImpl] [localhost-startStop-1] [1714]
+Checking 0 named HQL queries
+
+[DEBUG] [2014-04-25 15:51:59,339] [org.hibernate.impl.SessionFactoryImpl] [localhost-startStop-1] [1714]
+Checking 0 named SQL queries
+
+[DEBUG] [2014-04-25 15:52:08,941] [com.skycloud.test.controller.TestController] [http-bio-80-exec-6] [11316]
+http
+
+[DEBUG] [2014-04-25 15:52:08,942] [com.skycloud.test.controller.TestController] [http-bio-80-exec-6] [11317]
+localhost
+
+[DEBUG] [2014-04-25 15:52:08,942] [com.skycloud.test.controller.TestController] [http-bio-80-exec-6] [11317]
+80
+
+[DEBUG] [2014-04-25 15:52:08,942] [com.skycloud.test.controller.TestController] [http-bio-80-exec-6] [11317]
+/test/test1.do
+
+[DEBUG] [2014-04-25 15:52:08,943] [com.skycloud.test.controller.TestController] [http-bio-80-exec-6] [11318]
+
+
+[DEBUG] [2014-04-25 15:52:08,944] [com.skycloud.test.controller.TestController] [http-bio-80-exec-6] [11319]
+http://localhost:80/
+
+[DEBUG] [2014-04-25 15:52:15,283] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [17658]
+http
+
+[DEBUG] [2014-04-25 15:52:15,283] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [17658]
+localhost
+
+[DEBUG] [2014-04-25 15:52:15,284] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [17659]
+80
+
+[DEBUG] [2014-04-25 15:52:15,285] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [17660]
+/test/test1.do
+
+[DEBUG] [2014-04-25 15:52:15,285] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [17660]
+
+
+[DEBUG] [2014-04-25 15:52:15,286] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [17661]
+http://localhost:80/
+
+[DEBUG] [2014-04-25 15:52:18,349] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [20724]
+http
+
+[DEBUG] [2014-04-25 15:52:18,349] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [20724]
+localhost
+
+[DEBUG] [2014-04-25 15:52:18,350] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [20725]
+80
+
+[DEBUG] [2014-04-25 15:52:18,350] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [20725]
+/test/test1.do
+
+[DEBUG] [2014-04-25 15:52:18,350] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [20725]
+
+
+[DEBUG] [2014-04-25 15:52:18,350] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [20725]
+http://localhost:80/
+
+[DEBUG] [2014-04-25 16:03:15,156] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [677531]
+http
+
+[DEBUG] [2014-04-25 16:03:15,156] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [677531]
+localhost
+
+[DEBUG] [2014-04-25 16:03:15,157] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [677532]
+80
+
+[DEBUG] [2014-04-25 16:03:15,157] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [677532]
+/test/test1.do
+
+[DEBUG] [2014-04-25 16:03:15,157] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [677532]
+
+
+[DEBUG] [2014-04-25 16:03:15,157] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [677532]
+http://localhost:80/
+
+[DEBUG] [2014-04-25 16:03:30,706] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [693081]
+http
+
+[DEBUG] [2014-04-25 16:03:30,706] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [693081]
+localhost
+
+[DEBUG] [2014-04-25 16:03:30,706] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [693081]
+80
+
+[DEBUG] [2014-04-25 16:03:30,707] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [693082]
+/test/test1.do
+
+[DEBUG] [2014-04-25 16:03:30,707] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [693082]
+
+
+[DEBUG] [2014-04-25 16:03:30,707] [com.skycloud.test.controller.TestController] [http-bio-80-exec-10] [693082]
+http://localhost:80/
+
