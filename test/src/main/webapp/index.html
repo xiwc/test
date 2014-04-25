@@ -13,11 +13,10 @@
 <script type="text/javascript" src="demo/jquery-tmpl/jquery.tmpl.min.js"></script>
 <script type="text/javascript" src="assets/js/my/index.js"></script>
 <script id="indexTpl" type="text/x-jquery-tmpl">
-<div style="padding-left:10px;">
-	<div style="padding-bottom:5px;">${date}</div>
+<li>
+	<div>${date}</div>
 	<a href="${href}" target="_blank">${text}</a>
-</div>
-<hr>
+</li>
 </script>
 </head>
 <body>
@@ -29,7 +28,9 @@
 	</div>
 	<div id='spacerTopCenter' class='spacer'></div>
 	<div id="center">
-		<div id="indexListDiv" class='main'></div>
+		<div class='main'>
+			<ul id="indexListDiv"> </ul>
+		</div>
 	</div>
 	<div id='spacerCenterBottom' class='spacer'></div>
 	<div id="bottom">

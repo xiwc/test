@@ -1,7 +1,47 @@
 body {
-	background-color: black;
-	font-family: Verdana;
-	font-size: small
+	font: 12px/1.4 Verdana, Arial;
+	background: #eee;
+	height: 100%;
+	margin: 25px 0;
+	padding: 0
+}
+
+h1 {
+	font: 30px 'Trebuchet MS', Verdana;
+	margin: 0
+}
+
+h2 {
+	font-size: 12px;
+	font-weight: normal;
+	font-style: italic;
+	margin: 0 0 20px
+}
+
+p {
+	margin: 0 0 14px
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	padding-left: 20px;
+	list-style: none;
+	margin-bottom: 12px
+}
+
+li {
+	font: 14px Georgia, Verdana;
+	margin-bottom: 4px;
+	padding: 8px 10px 9px;
+	border: 1px solid #ccc;
+	background: #eee;
+	cursor: pointer
+}
+
+li:hover {
+	border: 1px solid #bbb;
+	background: #e3e3e3
 }
 
 a {
@@ -13,8 +53,11 @@ a {
 }
 
 .main {
-	/* width: 1000px; */
-	margin: 0 auto;
+	width: 600px;
+	margin: 0px auto;
+	border: 1px solid #ccc;
+	padding: 20px 25px 12px;
+	background: #fff
 }
 
 #top {
@@ -23,8 +66,6 @@ a {
 
 #top>div {
 	text-align: center;
-	background-color: #393D49;
-	color: #FFFFFF;
 }
 
 #top>div>h1 {
@@ -32,18 +73,7 @@ a {
 	font-size: 250%;
 }
 
-#center {
-	/* height: 550px; */
-}
-
-#indexListDiv {
-	height: 100%;
-	background-color: white;
-}
-
 #bottom>div {
 	text-align: center;
-	background-color: #393D49;
-	color: #FFFFFF;
 	font-size: 105%;
 }
