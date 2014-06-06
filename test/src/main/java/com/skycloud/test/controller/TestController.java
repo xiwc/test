@@ -12,6 +12,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.util.WebUtils;
 
 import com.skycloud.test.base.BaseController;
 import com.skycloud.test.base.ResultMsg;
@@ -216,7 +217,7 @@ public class TestController extends BaseController {
 
 		logger.debug(serverBaseUrl);
 
-		return "";
+		return "test";
 	}
 
 	@RequestMapping("test1")
@@ -234,6 +235,15 @@ public class TestController extends BaseController {
 		logger.debug(serverBaseUrl);
 
 		return serverBaseUrl;
+	}
+	
+	@RequestMapping("api")
+	@ResponseBody
+	public String api(HttpServletRequest request, Locale locale, Model model) {
+		
+		logger.debug(request.getParameter("id"));
+		
+		return "OK";
 	}
 
 }
