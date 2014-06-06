@@ -241,9 +241,10 @@ public class TestController extends BaseController {
 	@ResponseBody
 	public String api(HttpServletRequest request, Locale locale, Model model) {
 		
-		logger.debug(request.getParameter("id"));
+		String id = request.getParameter("id");
+		logger.debug(id);
 		
-		return "OK";
+		return "{'result':{'status':'OK'},'msg':'very good!', 'params':{'id':'{id}'}}".replace("{id}", id);
 	}
 
 }
